@@ -1,4 +1,4 @@
-VERSION=0.0.1
+VERSION=0.0.3
 NAME = sl_optimizer
 PIP = pip3
 PYTHON = python3
