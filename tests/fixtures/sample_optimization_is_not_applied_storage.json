@@ -1,0 +1,45 @@
+{
+  "storage": [
+    {
+      "astId": 3,
+      "contract": "SomeContract3.sol:ContractName",
+      "label": "me",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bool"
+    },
+    {
+      "astId": 5,
+      "contract": "SomeContract3.sol:ContractName",
+      "label": "text",
+      "offset": 1,
+      "slot": "0",
+      "type": "t_bytes12"
+    },
+    {
+      "astId": 7,
+      "contract": "SomeContract3.sol:ContractName",
+      "label": "name",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_string_storage"
+    }
+  ],
+  "types": {
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_bytes12": {
+      "encoding": "inplace",
+      "label": "bytes12",
+      "numberOfBytes": "12"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    }
+  }
+}
