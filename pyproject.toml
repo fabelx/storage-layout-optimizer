@@ -84,6 +84,7 @@ extend_skip_glob = [
 [tool.flake8]
 show_source = true
 max-line-length = 88
+extend-ignore = "W503,E203"
 exclude = [
     ".tox",
     "*.egg",
