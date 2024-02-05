@@ -1,0 +1,285 @@
+{
+  "storage": [
+    {
+      "astId": 37,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val1",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 39,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val2",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 41,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val3",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 43,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val4",
+      "offset": 16,
+      "slot": "2",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 45,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val5",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 47,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val6",
+      "offset": 14,
+      "slot": "3",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 49,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val7",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 51,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val8",
+      "offset": 16,
+      "slot": "4",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 53,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val9",
+      "offset": 0,
+      "slot": "5",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 55,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "vladyslav",
+      "offset": 0,
+      "slot": "6",
+      "type": "t_struct(Person)18_storage"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_bytes32)4_storage": {
+      "base": "t_bytes32",
+      "encoding": "inplace",
+      "label": "bytes32[4]",
+      "numberOfBytes": "128"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_bytes14": {
+      "encoding": "inplace",
+      "label": "bytes14",
+      "numberOfBytes": "14"
+    },
+    "t_bytes16": {
+      "encoding": "inplace",
+      "label": "bytes16",
+      "numberOfBytes": "16"
+    },
+    "t_bytes20": {
+      "encoding": "inplace",
+      "label": "bytes20",
+      "numberOfBytes": "20"
+    },
+    "t_bytes23": {
+      "encoding": "inplace",
+      "label": "bytes23",
+      "numberOfBytes": "23"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_bytes4": {
+      "encoding": "inplace",
+      "label": "bytes4",
+      "numberOfBytes": "4"
+    },
+    "t_bytes7": {
+      "encoding": "inplace",
+      "label": "bytes7",
+      "numberOfBytes": "7"
+    },
+    "t_mapping(t_uint256,t_string_storage)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => string)",
+      "numberOfBytes": "32",
+      "value": "t_string_storage"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    },
+    "t_struct(Home)35_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Home",
+      "members": [
+        {
+          "astId": 20,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "houseNumber",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 24,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "owners",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_array(t_bytes32)4_storage"
+        },
+        {
+          "astId": 26,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isWaterproof",
+          "offset": 0,
+          "slot": "5",
+          "type": "t_bool"
+        },
+        {
+          "astId": 28,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "zipCode",
+          "offset": 0,
+          "slot": "6",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 30,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isFireproof",
+          "offset": 0,
+          "slot": "7",
+          "type": "t_bool"
+        },
+        {
+          "astId": 32,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "tag",
+          "offset": 0,
+          "slot": "8",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 34,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "nosense",
+          "offset": 0,
+          "slot": "9",
+          "type": "t_address"
+        }
+      ],
+      "numberOfBytes": "320"
+    },
+    "t_struct(Person)18_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person",
+      "members": [
+        {
+          "astId": 3,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 7,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "nickNames",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_mapping(t_uint256,t_string_storage)"
+        },
+        {
+          "astId": 9,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "wallet",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_address"
+        },
+        {
+          "astId": 11,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Home)35_storage"
+        },
+        {
+          "astId": 13,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isAlive",
+          "offset": 0,
+          "slot": "13",
+          "type": "t_bool"
+        },
+        {
+          "astId": 15,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "salary",
+          "offset": 0,
+          "slot": "14",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 17,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isDead",
+          "offset": 0,
+          "slot": "15",
+          "type": "t_bool"
+        }
+      ],
+      "numberOfBytes": "512"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

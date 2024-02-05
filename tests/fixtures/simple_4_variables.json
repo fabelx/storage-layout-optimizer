@@ -1,0 +1,53 @@
+{
+  "storage": [
+    {
+      "astId": 3,
+      "contract": "SomeContract3.sol:Simple4Variables",
+      "label": "val1",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 5,
+      "contract": "SomeContract3.sol:Simple4Variables",
+      "label": "val2",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 7,
+      "contract": "SomeContract3.sol:Simple4Variables",
+      "label": "val3",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 9,
+      "contract": "SomeContract3.sol:Simple4Variables",
+      "label": "val4",
+      "offset": 16,
+      "slot": "2",
+      "type": "t_bytes7"
+    }
+  ],
+  "types": {
+    "t_bytes16": {
+      "encoding": "inplace",
+      "label": "bytes16",
+      "numberOfBytes": "16"
+    },
+    "t_bytes23": {
+      "encoding": "inplace",
+      "label": "bytes23",
+      "numberOfBytes": "23"
+    },
+    "t_bytes7": {
+      "encoding": "inplace",
+      "label": "bytes7",
+      "numberOfBytes": "7"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "storage": [
+    {
+      "astId": 2815,
+      "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+      "label": "parameters",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_struct(Parameters)2811_storage"
+    },
+    {
+      "astId": 16,
+      "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+      "label": "owner",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_address"
+    },
+    {
+      "astId": 22,
+      "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+      "label": "feeAmountTickSpacing",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_mapping(t_uint24,t_int24)"
+    },
+    {
+      "astId": 32,
+      "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+      "label": "getPool",
+      "offset": 0,
+      "slot": "5",
+      "type": "t_mapping(t_address,t_mapping(t_address,t_mapping(t_uint24,t_address)))"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_int24": {
+      "encoding": "inplace",
+      "label": "int24",
+      "numberOfBytes": "3"
+    },
+    "t_mapping(t_address,t_mapping(t_address,t_mapping(t_uint24,t_address)))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(address => mapping(uint24 => address)))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_address,t_mapping(t_uint24,t_address))"
+    },
+    "t_mapping(t_address,t_mapping(t_uint24,t_address))": {
+      "encoding": "mapping",
+      "key": "t_address",
+      "label": "mapping(address => mapping(uint24 => address))",
+      "numberOfBytes": "32",
+      "value": "t_mapping(t_uint24,t_address)"
+    },
+    "t_mapping(t_uint24,t_address)": {
+      "encoding": "mapping",
+      "key": "t_uint24",
+      "label": "mapping(uint24 => address)",
+      "numberOfBytes": "32",
+      "value": "t_address"
+    },
+    "t_mapping(t_uint24,t_int24)": {
+      "encoding": "mapping",
+      "key": "t_uint24",
+      "label": "mapping(uint24 => int24)",
+      "numberOfBytes": "32",
+      "value": "t_int24"
+    },
+    "t_struct(Parameters)2811_storage": {
+      "encoding": "inplace",
+      "label": "struct UniswapV3PoolDeployer.Parameters",
+      "members": [
+        {
+          "astId": 2802,
+          "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+          "label": "factory",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_address"
+        },
+        {
+          "astId": 2804,
+          "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+          "label": "token0",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_address"
+        },
+        {
+          "astId": 2806,
+          "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+          "label": "token1",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_address"
+        },
+        {
+          "astId": 2808,
+          "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+          "label": "fee",
+          "offset": 20,
+          "slot": "2",
+          "type": "t_uint24"
+        },
+        {
+          "astId": 2810,
+          "contract": "UniswapV3Factory.sol:UniswapV3Factory",
+          "label": "tickSpacing",
+          "offset": 23,
+          "slot": "2",
+          "type": "t_int24"
+        }
+      ],
+      "numberOfBytes": "96"
+    },
+    "t_uint24": {
+      "encoding": "inplace",
+      "label": "uint24",
+      "numberOfBytes": "3"
+    }
+  }
+}
