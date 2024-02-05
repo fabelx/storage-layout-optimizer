@@ -1,6 +1,6 @@
 [project]
 name = "sl_optimizer"
-version = "0.0.1"
+version = "0.0.3"
 description = "Optimizing the arrangement of data in storage layout."
 readme = "README.md"
 requires-python = ">=3.10"
