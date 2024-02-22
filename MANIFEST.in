@@ -1,0 +1,9 @@
+recursive-include src *
+include README.md
+include pyproject.toml
+include LICENSE.txt
+
+prune tests
+prune output
+prune dist
+prune build
