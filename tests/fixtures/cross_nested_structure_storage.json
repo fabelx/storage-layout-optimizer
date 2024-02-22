@@ -1,0 +1,285 @@
+{
+  "storage": [
+    {
+      "astId": 51,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val1",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 54,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "catone",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_struct(Animal)22_storage"
+    },
+    {
+      "astId": 56,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val2",
+      "offset": 0,
+      "slot": "29",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 58,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val3",
+      "offset": 0,
+      "slot": "30",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 60,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "val4",
+      "offset": 16,
+      "slot": "30",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 63,
+      "contract": "SomeContract2.sol:SomeContract",
+      "label": "cattwo",
+      "offset": 0,
+      "slot": "31",
+      "type": "t_struct(Animal)22_storage"
+    }
+  ],
+  "types": {
+    "t_address": {
+      "encoding": "inplace",
+      "label": "address",
+      "numberOfBytes": "20"
+    },
+    "t_array(t_bytes32)4_storage": {
+      "base": "t_bytes32",
+      "encoding": "inplace",
+      "label": "bytes32[4]",
+      "numberOfBytes": "128"
+    },
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_bytes16": {
+      "encoding": "inplace",
+      "label": "bytes16",
+      "numberOfBytes": "16"
+    },
+    "t_bytes23": {
+      "encoding": "inplace",
+      "label": "bytes23",
+      "numberOfBytes": "23"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_bytes7": {
+      "encoding": "inplace",
+      "label": "bytes7",
+      "numberOfBytes": "7"
+    },
+    "t_mapping(t_uint256,t_string_storage)": {
+      "encoding": "mapping",
+      "key": "t_uint256",
+      "label": "mapping(uint256 => string)",
+      "numberOfBytes": "32",
+      "value": "t_string_storage"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    },
+    "t_struct(Animal)22_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Animal",
+      "members": [
+        {
+          "astId": 3,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 7,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "nickNames",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_mapping(t_uint256,t_string_storage)"
+        },
+        {
+          "astId": 9,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "wallet",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_address"
+        },
+        {
+          "astId": 12,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Home)49_storage"
+        },
+        {
+          "astId": 14,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isAlive",
+          "offset": 0,
+          "slot": "13",
+          "type": "t_bool"
+        },
+        {
+          "astId": 16,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "salary",
+          "offset": 0,
+          "slot": "14",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 18,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isDead",
+          "offset": 0,
+          "slot": "15",
+          "type": "t_bool"
+        },
+        {
+          "astId": 21,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "cat",
+          "offset": 0,
+          "slot": "16",
+          "type": "t_struct(Cat)32_storage"
+        }
+      ],
+      "numberOfBytes": "896"
+    },
+    "t_struct(Cat)32_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Cat",
+      "members": [
+        {
+          "astId": 24,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 26,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "wallet",
+          "offset": 1,
+          "slot": "0",
+          "type": "t_address"
+        },
+        {
+          "astId": 29,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_struct(Home)49_storage"
+        },
+        {
+          "astId": 31,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isAlive",
+          "offset": 0,
+          "slot": "11",
+          "type": "t_bool"
+        }
+      ],
+      "numberOfBytes": "384"
+    },
+    "t_struct(Home)49_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Home",
+      "members": [
+        {
+          "astId": 34,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "houseNumber",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_uint8"
+        },
+        {
+          "astId": 38,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "owners",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_array(t_bytes32)4_storage"
+        },
+        {
+          "astId": 40,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isWaterproof",
+          "offset": 0,
+          "slot": "5",
+          "type": "t_bool"
+        },
+        {
+          "astId": 42,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "zipCode",
+          "offset": 0,
+          "slot": "6",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 44,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isFireproof",
+          "offset": 0,
+          "slot": "7",
+          "type": "t_bool"
+        },
+        {
+          "astId": 46,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "tag",
+          "offset": 0,
+          "slot": "8",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 48,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "nosense",
+          "offset": 0,
+          "slot": "9",
+          "type": "t_address"
+        }
+      ],
+      "numberOfBytes": "320"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}
