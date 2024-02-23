@@ -52,8 +52,7 @@ def test_timeit(sl):
     print(f"The execution time is: {execution_time}")
 
 
-def main():
-    ...
+def main(): ...
 
 
 if __name__ == "__main__":
