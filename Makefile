@@ -1,7 +1,7 @@
 VERSION=0.0.3
 NAME = sl_optimizer
 PIP = pip3
-PYTHON = python3
+PYTHON = python
 TWINE = twine
 COVERAGE = coverage
 
@@ -21,6 +21,7 @@ clean:
 	@echo "Cleaning up pytest files and .coverage"
 	rm -rf .pytest_cache
 	rm -rf .coverage
+	rm -rf .benchmarks
 
 .PHONY: build
 build:
@@ -75,7 +76,11 @@ test: install-test unit
 
 .PHONY: unit
 unit:
-	pytest --cov=$(NAME) tests -p no:warnings
+	pytest --cov=$(NAME) --ignore=tests/benchmark tests -p no:warnings
+
+.PHONY: benchmark
+benchmark:
+	pytest tests/benchmark -p no:warnings --capture=no
 
 .PHONY: coverage
 coverage:
