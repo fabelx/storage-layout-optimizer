@@ -4,7 +4,7 @@ from pathlib import Path
 
 from sl_optimizer import LayoutError, StorageLayout
 
-VERSION = "v0.0.3"
+VERSION = "v0.0.4"
 LOGGER = logging.getLogger(__name__)
 
 

@@ -96,10 +96,11 @@ ___
 - [x] rewrite tests (improve the use of utilities in code)
 - [x] add new samples ([fixtures](tests/fixtures)) for tests
 - [ ] add diagnostic or metric information related to optimization
-- [ ] add CLI
+- [x] add CLI
 - [x] add benchmarks (to cover optimize functionality, for local usage, not included to package)
 - [x] generate 3 fixtures (large nested structures & huge number of variables & cross nested structures)
-
+- [ ] change algorithm First Fit Decreasing -> consideration in progress ...
+- [ ] restructuring storage data for optimization
 ___
 
 ## License
