@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+import pytest
+
 TEST_DIR = Path(__file__).resolve().parent
 
 
@@ -22,3 +24,13 @@ def get_storage_layout(filename: str):
         storage_layout = json.load(f)
 
     return storage_layout
+
+
+@pytest.fixture(scope="function")
+def storage_layout(filename: str):
+    return get_storage_layout(filename)
+
+
+@pytest.fixture(scope="function")
+def storage(storage_layout: dict):
+    return storage_layout.get("storage")

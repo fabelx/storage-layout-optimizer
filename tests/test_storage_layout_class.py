@@ -5,7 +5,7 @@ from deepdiff import DeepDiff
 
 from sl_optimizer import StorageLayout
 from sl_optimizer.errors import LayoutError
-from tests.utils import get_fixture_path, get_storage_layout
+from tests.conftest import get_fixture_path, get_storage_layout
 
 
 @pytest.fixture

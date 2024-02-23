@@ -1,25 +1,14 @@
-import json
-
 import pytest
 from jsonschema.exceptions import ValidationError
 
 from sl_optimizer import parse_storage_layout
 from sl_optimizer.errors import LayoutError
 from sl_optimizer.utils import validate_storage_layout
-from tests.utils import get_fixture_path
 
 
-@pytest.fixture
-def storage():
-    filepath = get_fixture_path("uniswap_v3_factory_storage.json")
-    with open(filepath) as f:
-        storage_layout = json.load(f)
-
-    return storage_layout
-
-
-def test_parse_storage_layout(storage):
-    parse_storage_layout(data=storage)
+@pytest.mark.parametrize("filename", ("uniswap_v3_factory_storage.json",))
+def test_parse_storage_layout(storage_layout):
+    parse_storage_layout(data=storage_layout)
 
 
 def test_parse_storage_layout_fail():

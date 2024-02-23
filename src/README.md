@@ -40,6 +40,25 @@ if __name__ == '__main__':
     main()
 ```
 
+### CLI
+```bash
+sl_optimizer storage-layout.json --force-save -o output.json
+```
+```shell
+usage: sl_optimizer [-h] [-o fl] [-f] [-v] filepath
+
+A Python cli tool designed to optimize the storage layout for Solidity smart contracts.
+
+positional arguments:
+  filepath            path to the json file contains a storage layout, could be obtained using the `solc --storage-layout -o output Contract.sol` command
+
+options:
+  -h, --help          show this help message and exit
+  -o fl, --output fl  path to the file where the data will be saved. Default: optimized_storage_layout.json
+  -f, --force-save    if True, overwrite the file even if it already exists
+  -v, --version       returns version
+
+```
 ___
 
 ## License

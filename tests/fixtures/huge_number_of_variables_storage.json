@@ -1,0 +1,1766 @@
+{
+  "storage": [
+    {
+      "astId": 3,
+      "contract": "Contract.sol:SomeContract",
+      "label": "determine",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 5,
+      "contract": "Contract.sol:SomeContract",
+      "label": "seafood",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 7,
+      "contract": "Contract.sol:SomeContract",
+      "label": "adipex",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 9,
+      "contract": "Contract.sol:SomeContract",
+      "label": "denied",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 11,
+      "contract": "Contract.sol:SomeContract",
+      "label": "immigrants",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 13,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ol",
+      "offset": 0,
+      "slot": "5",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 15,
+      "contract": "Contract.sol:SomeContract",
+      "label": "peaceful",
+      "offset": 0,
+      "slot": "6",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 17,
+      "contract": "Contract.sol:SomeContract",
+      "label": "registration",
+      "offset": 0,
+      "slot": "7",
+      "type": "t_bytes21"
+    },
+    {
+      "astId": 19,
+      "contract": "Contract.sol:SomeContract",
+      "label": "cfr",
+      "offset": 21,
+      "slot": "7",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 21,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ethnic",
+      "offset": 0,
+      "slot": "8",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 23,
+      "contract": "Contract.sol:SomeContract",
+      "label": "navy",
+      "offset": 0,
+      "slot": "9",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 25,
+      "contract": "Contract.sol:SomeContract",
+      "label": "nec",
+      "offset": 31,
+      "slot": "9",
+      "type": "t_bytes1"
+    },
+    {
+      "astId": 27,
+      "contract": "Contract.sol:SomeContract",
+      "label": "addresses",
+      "offset": 0,
+      "slot": "10",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 29,
+      "contract": "Contract.sol:SomeContract",
+      "label": "jenny",
+      "offset": 17,
+      "slot": "10",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 31,
+      "contract": "Contract.sol:SomeContract",
+      "label": "corporations",
+      "offset": 31,
+      "slot": "10",
+      "type": "t_bytes1"
+    },
+    {
+      "astId": 33,
+      "contract": "Contract.sol:SomeContract",
+      "label": "wm",
+      "offset": 0,
+      "slot": "11",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 35,
+      "contract": "Contract.sol:SomeContract",
+      "label": "auctions",
+      "offset": 0,
+      "slot": "12",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 37,
+      "contract": "Contract.sol:SomeContract",
+      "label": "prisoners",
+      "offset": 0,
+      "slot": "13",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 39,
+      "contract": "Contract.sol:SomeContract",
+      "label": "necessity",
+      "offset": 14,
+      "slot": "13",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 41,
+      "contract": "Contract.sol:SomeContract",
+      "label": "teen",
+      "offset": 18,
+      "slot": "13",
+      "type": "t_bytes12"
+    },
+    {
+      "astId": 43,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mails",
+      "offset": 0,
+      "slot": "14",
+      "type": "t_bytes30"
+    },
+    {
+      "astId": 45,
+      "contract": "Contract.sol:SomeContract",
+      "label": "other",
+      "offset": 30,
+      "slot": "14",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 47,
+      "contract": "Contract.sol:SomeContract",
+      "label": "fingers",
+      "offset": 0,
+      "slot": "15",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 49,
+      "contract": "Contract.sol:SomeContract",
+      "label": "coordinated",
+      "offset": 0,
+      "slot": "16",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 51,
+      "contract": "Contract.sol:SomeContract",
+      "label": "iraqi",
+      "offset": 15,
+      "slot": "16",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 53,
+      "contract": "Contract.sol:SomeContract",
+      "label": "a",
+      "offset": 0,
+      "slot": "17",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 55,
+      "contract": "Contract.sol:SomeContract",
+      "label": "kfavjhdvb",
+      "offset": 0,
+      "slot": "18",
+      "type": "t_bytes11"
+    },
+    {
+      "astId": 57,
+      "contract": "Contract.sol:SomeContract",
+      "label": "doctor",
+      "offset": 0,
+      "slot": "19",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 59,
+      "contract": "Contract.sol:SomeContract",
+      "label": "judge",
+      "offset": 0,
+      "slot": "20",
+      "type": "t_bytes25"
+    },
+    {
+      "astId": 61,
+      "contract": "Contract.sol:SomeContract",
+      "label": "prerequisite",
+      "offset": 0,
+      "slot": "21",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 63,
+      "contract": "Contract.sol:SomeContract",
+      "label": "calculator",
+      "offset": 15,
+      "slot": "21",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 65,
+      "contract": "Contract.sol:SomeContract",
+      "label": "pour",
+      "offset": 22,
+      "slot": "21",
+      "type": "t_bytes9"
+    },
+    {
+      "astId": 67,
+      "contract": "Contract.sol:SomeContract",
+      "label": "radios",
+      "offset": 0,
+      "slot": "22",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 69,
+      "contract": "Contract.sol:SomeContract",
+      "label": "height",
+      "offset": 4,
+      "slot": "22",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 71,
+      "contract": "Contract.sol:SomeContract",
+      "label": "careers",
+      "offset": 17,
+      "slot": "22",
+      "type": "t_bytes6"
+    },
+    {
+      "astId": 73,
+      "contract": "Contract.sol:SomeContract",
+      "label": "fatty",
+      "offset": 23,
+      "slot": "22",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 75,
+      "contract": "Contract.sol:SomeContract",
+      "label": "component",
+      "offset": 0,
+      "slot": "23",
+      "type": "t_bytes32"
+    },
+    {
+      "astId": 77,
+      "contract": "Contract.sol:SomeContract",
+      "label": "courses",
+      "offset": 0,
+      "slot": "24",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 79,
+      "contract": "Contract.sol:SomeContract",
+      "label": "passes",
+      "offset": 14,
+      "slot": "24",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 81,
+      "contract": "Contract.sol:SomeContract",
+      "label": "none",
+      "offset": 0,
+      "slot": "25",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 83,
+      "contract": "Contract.sol:SomeContract",
+      "label": "riding",
+      "offset": 0,
+      "slot": "26",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 85,
+      "contract": "Contract.sol:SomeContract",
+      "label": "competent",
+      "offset": 17,
+      "slot": "26",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 87,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mart",
+      "offset": 0,
+      "slot": "27",
+      "type": "t_bytes8"
+    },
+    {
+      "astId": 89,
+      "contract": "Contract.sol:SomeContract",
+      "label": "vernon",
+      "offset": 8,
+      "slot": "27",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 91,
+      "contract": "Contract.sol:SomeContract",
+      "label": "lesser",
+      "offset": 0,
+      "slot": "28",
+      "type": "t_bytes21"
+    },
+    {
+      "astId": 93,
+      "contract": "Contract.sol:SomeContract",
+      "label": "behavioral",
+      "offset": 21,
+      "slot": "28",
+      "type": "t_bytes5"
+    },
+    {
+      "astId": 95,
+      "contract": "Contract.sol:SomeContract",
+      "label": "connection",
+      "offset": 26,
+      "slot": "28",
+      "type": "t_bytes6"
+    },
+    {
+      "astId": 97,
+      "contract": "Contract.sol:SomeContract",
+      "label": "fake",
+      "offset": 0,
+      "slot": "29",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 99,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ons",
+      "offset": 0,
+      "slot": "30",
+      "type": "t_bytes19"
+    },
+    {
+      "astId": 101,
+      "contract": "Contract.sol:SomeContract",
+      "label": "many",
+      "offset": 0,
+      "slot": "31",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 103,
+      "contract": "Contract.sol:SomeContract",
+      "label": "supervision",
+      "offset": 0,
+      "slot": "32",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 105,
+      "contract": "Contract.sol:SomeContract",
+      "label": "adjust",
+      "offset": 17,
+      "slot": "32",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 107,
+      "contract": "Contract.sol:SomeContract",
+      "label": "textiles",
+      "offset": 0,
+      "slot": "33",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 109,
+      "contract": "Contract.sol:SomeContract",
+      "label": "euros",
+      "offset": 0,
+      "slot": "34",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 111,
+      "contract": "Contract.sol:SomeContract",
+      "label": "drunk",
+      "offset": 0,
+      "slot": "35",
+      "type": "t_bytes29"
+    },
+    {
+      "astId": 113,
+      "contract": "Contract.sol:SomeContract",
+      "label": "printing",
+      "offset": 0,
+      "slot": "36",
+      "type": "t_bytes18"
+    },
+    {
+      "astId": 115,
+      "contract": "Contract.sol:SomeContract",
+      "label": "wallpaper",
+      "offset": 0,
+      "slot": "37",
+      "type": "t_bytes28"
+    },
+    {
+      "astId": 117,
+      "contract": "Contract.sol:SomeContract",
+      "label": "weddings",
+      "offset": 0,
+      "slot": "38",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 119,
+      "contract": "Contract.sol:SomeContract",
+      "label": "defence",
+      "offset": 0,
+      "slot": "39",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 121,
+      "contract": "Contract.sol:SomeContract",
+      "label": "official",
+      "offset": 26,
+      "slot": "39",
+      "type": "t_bytes1"
+    },
+    {
+      "astId": 123,
+      "contract": "Contract.sol:SomeContract",
+      "label": "rogers",
+      "offset": 0,
+      "slot": "40",
+      "type": "t_bytes29"
+    },
+    {
+      "astId": 125,
+      "contract": "Contract.sol:SomeContract",
+      "label": "frequencies",
+      "offset": 0,
+      "slot": "41",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 127,
+      "contract": "Contract.sol:SomeContract",
+      "label": "console",
+      "offset": 14,
+      "slot": "41",
+      "type": "t_bytes3"
+    },
+    {
+      "astId": 129,
+      "contract": "Contract.sol:SomeContract",
+      "label": "pensions",
+      "offset": 17,
+      "slot": "41",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 131,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mustang",
+      "offset": 0,
+      "slot": "42",
+      "type": "t_bytes22"
+    },
+    {
+      "astId": 133,
+      "contract": "Contract.sol:SomeContract",
+      "label": "knew",
+      "offset": 0,
+      "slot": "43",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 135,
+      "contract": "Contract.sol:SomeContract",
+      "label": "boxed",
+      "offset": 14,
+      "slot": "43",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 137,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mai",
+      "offset": 0,
+      "slot": "44",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 139,
+      "contract": "Contract.sol:SomeContract",
+      "label": "went",
+      "offset": 0,
+      "slot": "45",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 141,
+      "contract": "Contract.sol:SomeContract",
+      "label": "happened",
+      "offset": 24,
+      "slot": "45",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 143,
+      "contract": "Contract.sol:SomeContract",
+      "label": "graph",
+      "offset": 0,
+      "slot": "46",
+      "type": "t_bytes32"
+    },
+    {
+      "astId": 145,
+      "contract": "Contract.sol:SomeContract",
+      "label": "pieces",
+      "offset": 0,
+      "slot": "47",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 147,
+      "contract": "Contract.sol:SomeContract",
+      "label": "karl",
+      "offset": 4,
+      "slot": "47",
+      "type": "t_bytes9"
+    },
+    {
+      "astId": 149,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ground",
+      "offset": 13,
+      "slot": "47",
+      "type": "t_bytes10"
+    },
+    {
+      "astId": 151,
+      "contract": "Contract.sol:SomeContract",
+      "label": "relations",
+      "offset": 0,
+      "slot": "48",
+      "type": "t_bytes11"
+    },
+    {
+      "astId": 153,
+      "contract": "Contract.sol:SomeContract",
+      "label": "seeks",
+      "offset": 11,
+      "slot": "48",
+      "type": "t_bytes8"
+    },
+    {
+      "astId": 155,
+      "contract": "Contract.sol:SomeContract",
+      "label": "singapore",
+      "offset": 0,
+      "slot": "49",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 157,
+      "contract": "Contract.sol:SomeContract",
+      "label": "corners",
+      "offset": 0,
+      "slot": "50",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 159,
+      "contract": "Contract.sol:SomeContract",
+      "label": "beatles",
+      "offset": 0,
+      "slot": "51",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 161,
+      "contract": "Contract.sol:SomeContract",
+      "label": "folk",
+      "offset": 0,
+      "slot": "52",
+      "type": "t_bytes29"
+    },
+    {
+      "astId": 163,
+      "contract": "Contract.sol:SomeContract",
+      "label": "christina",
+      "offset": 0,
+      "slot": "53",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 165,
+      "contract": "Contract.sol:SomeContract",
+      "label": "exploring",
+      "offset": 0,
+      "slot": "54",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 167,
+      "contract": "Contract.sol:SomeContract",
+      "label": "advantage",
+      "offset": 0,
+      "slot": "55",
+      "type": "t_bytes25"
+    },
+    {
+      "astId": 169,
+      "contract": "Contract.sol:SomeContract",
+      "label": "cardiovascular",
+      "offset": 25,
+      "slot": "55",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 171,
+      "contract": "Contract.sol:SomeContract",
+      "label": "thu",
+      "offset": 27,
+      "slot": "55",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 173,
+      "contract": "Contract.sol:SomeContract",
+      "label": "voices",
+      "offset": 0,
+      "slot": "56",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 175,
+      "contract": "Contract.sol:SomeContract",
+      "label": "atomic",
+      "offset": 4,
+      "slot": "56",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 177,
+      "contract": "Contract.sol:SomeContract",
+      "label": "sheriff",
+      "offset": 6,
+      "slot": "56",
+      "type": "t_bytes3"
+    },
+    {
+      "astId": 179,
+      "contract": "Contract.sol:SomeContract",
+      "label": "cia",
+      "offset": 9,
+      "slot": "56",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 181,
+      "contract": "Contract.sol:SomeContract",
+      "label": "contracts",
+      "offset": 16,
+      "slot": "56",
+      "type": "t_bytes9"
+    },
+    {
+      "astId": 183,
+      "contract": "Contract.sol:SomeContract",
+      "label": "sip",
+      "offset": 0,
+      "slot": "57",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 185,
+      "contract": "Contract.sol:SomeContract",
+      "label": "breath",
+      "offset": 0,
+      "slot": "58",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 187,
+      "contract": "Contract.sol:SomeContract",
+      "label": "sought",
+      "offset": 23,
+      "slot": "58",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 189,
+      "contract": "Contract.sol:SomeContract",
+      "label": "cancel",
+      "offset": 0,
+      "slot": "59",
+      "type": "t_bytes6"
+    },
+    {
+      "astId": 191,
+      "contract": "Contract.sol:SomeContract",
+      "label": "retirement",
+      "offset": 6,
+      "slot": "59",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 193,
+      "contract": "Contract.sol:SomeContract",
+      "label": "herald",
+      "offset": 8,
+      "slot": "59",
+      "type": "t_bytes8"
+    },
+    {
+      "astId": 195,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bias",
+      "offset": 16,
+      "slot": "59",
+      "type": "t_bytes3"
+    },
+    {
+      "astId": 197,
+      "contract": "Contract.sol:SomeContract",
+      "label": "trauma",
+      "offset": 19,
+      "slot": "59",
+      "type": "t_bytes11"
+    },
+    {
+      "astId": 199,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bigger",
+      "offset": 0,
+      "slot": "60",
+      "type": "t_bytes8"
+    },
+    {
+      "astId": 201,
+      "contract": "Contract.sol:SomeContract",
+      "label": "closest",
+      "offset": 8,
+      "slot": "60",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 203,
+      "contract": "Contract.sol:SomeContract",
+      "label": "sleep",
+      "offset": 0,
+      "slot": "61",
+      "type": "t_bytes26"
+    },
+    {
+      "astId": 205,
+      "contract": "Contract.sol:SomeContract",
+      "label": "carriers",
+      "offset": 26,
+      "slot": "61",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 207,
+      "contract": "Contract.sol:SomeContract",
+      "label": "been",
+      "offset": 0,
+      "slot": "62",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 209,
+      "contract": "Contract.sol:SomeContract",
+      "label": "assessed",
+      "offset": 27,
+      "slot": "62",
+      "type": "t_bytes5"
+    },
+    {
+      "astId": 211,
+      "contract": "Contract.sol:SomeContract",
+      "label": "matter",
+      "offset": 0,
+      "slot": "63",
+      "type": "t_bytes25"
+    },
+    {
+      "astId": 213,
+      "contract": "Contract.sol:SomeContract",
+      "label": "connector",
+      "offset": 0,
+      "slot": "64",
+      "type": "t_bytes21"
+    },
+    {
+      "astId": 215,
+      "contract": "Contract.sol:SomeContract",
+      "label": "less",
+      "offset": 0,
+      "slot": "65",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 217,
+      "contract": "Contract.sol:SomeContract",
+      "label": "horizontal",
+      "offset": 17,
+      "slot": "65",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 219,
+      "contract": "Contract.sol:SomeContract",
+      "label": "entities",
+      "offset": 0,
+      "slot": "66",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 221,
+      "contract": "Contract.sol:SomeContract",
+      "label": "booleaasn",
+      "offset": 0,
+      "slot": "67",
+      "type": "t_bytes28"
+    },
+    {
+      "astId": 223,
+      "contract": "Contract.sol:SomeContract",
+      "label": "taste",
+      "offset": 0,
+      "slot": "68",
+      "type": "t_bytes25"
+    },
+    {
+      "astId": 225,
+      "contract": "Contract.sol:SomeContract",
+      "label": "convergence",
+      "offset": 25,
+      "slot": "68",
+      "type": "t_bytes3"
+    },
+    {
+      "astId": 227,
+      "contract": "Contract.sol:SomeContract",
+      "label": "arrangements",
+      "offset": 0,
+      "slot": "69",
+      "type": "t_bytes25"
+    },
+    {
+      "astId": 229,
+      "contract": "Contract.sol:SomeContract",
+      "label": "webster",
+      "offset": 25,
+      "slot": "69",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 231,
+      "contract": "Contract.sol:SomeContract",
+      "label": "louise",
+      "offset": 0,
+      "slot": "70",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 233,
+      "contract": "Contract.sol:SomeContract",
+      "label": "provinces",
+      "offset": 0,
+      "slot": "71",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 235,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mug",
+      "offset": 13,
+      "slot": "71",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 237,
+      "contract": "Contract.sol:SomeContract",
+      "label": "namespace",
+      "offset": 15,
+      "slot": "71",
+      "type": "t_bytes9"
+    },
+    {
+      "astId": 239,
+      "contract": "Contract.sol:SomeContract",
+      "label": "third",
+      "offset": 0,
+      "slot": "72",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 241,
+      "contract": "Contract.sol:SomeContract",
+      "label": "addressed",
+      "offset": 13,
+      "slot": "72",
+      "type": "t_bytes18"
+    },
+    {
+      "astId": 243,
+      "contract": "Contract.sol:SomeContract",
+      "label": "asbestos",
+      "offset": 0,
+      "slot": "73",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 245,
+      "contract": "Contract.sol:SomeContract",
+      "label": "stylish",
+      "offset": 13,
+      "slot": "73",
+      "type": "t_bytes9"
+    },
+    {
+      "astId": 247,
+      "contract": "Contract.sol:SomeContract",
+      "label": "secure",
+      "offset": 0,
+      "slot": "74",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 249,
+      "contract": "Contract.sol:SomeContract",
+      "label": "dance",
+      "offset": 0,
+      "slot": "75",
+      "type": "t_bytes5"
+    },
+    {
+      "astId": 251,
+      "contract": "Contract.sol:SomeContract",
+      "label": "gc",
+      "offset": 0,
+      "slot": "76",
+      "type": "t_bytes30"
+    },
+    {
+      "astId": 253,
+      "contract": "Contract.sol:SomeContract",
+      "label": "parent",
+      "offset": 0,
+      "slot": "77",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 255,
+      "contract": "Contract.sol:SomeContract",
+      "label": "cancer",
+      "offset": 0,
+      "slot": "78",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 257,
+      "contract": "Contract.sol:SomeContract",
+      "label": "walter",
+      "offset": 14,
+      "slot": "78",
+      "type": "t_bytes1"
+    },
+    {
+      "astId": 259,
+      "contract": "Contract.sol:SomeContract",
+      "label": "tue",
+      "offset": 0,
+      "slot": "79",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 261,
+      "contract": "Contract.sol:SomeContract",
+      "label": "nylon",
+      "offset": 20,
+      "slot": "79",
+      "type": "t_bytes7"
+    },
+    {
+      "astId": 263,
+      "contract": "Contract.sol:SomeContract",
+      "label": "strategies",
+      "offset": 0,
+      "slot": "80",
+      "type": "t_bytes30"
+    },
+    {
+      "astId": 265,
+      "contract": "Contract.sol:SomeContract",
+      "label": "moss",
+      "offset": 0,
+      "slot": "81",
+      "type": "t_bytes19"
+    },
+    {
+      "astId": 267,
+      "contract": "Contract.sol:SomeContract",
+      "label": "electron",
+      "offset": 0,
+      "slot": "82",
+      "type": "t_bytes25"
+    },
+    {
+      "astId": 269,
+      "contract": "Contract.sol:SomeContract",
+      "label": "voting",
+      "offset": 25,
+      "slot": "82",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 271,
+      "contract": "Contract.sol:SomeContract",
+      "label": "panties",
+      "offset": 0,
+      "slot": "83",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 273,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ranges",
+      "offset": 0,
+      "slot": "84",
+      "type": "t_bytes30"
+    },
+    {
+      "astId": 275,
+      "contract": "Contract.sol:SomeContract",
+      "label": "civic",
+      "offset": 0,
+      "slot": "85",
+      "type": "t_bytes22"
+    },
+    {
+      "astId": 277,
+      "contract": "Contract.sol:SomeContract",
+      "label": "placing",
+      "offset": 0,
+      "slot": "86",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 279,
+      "contract": "Contract.sol:SomeContract",
+      "label": "testimonials",
+      "offset": 17,
+      "slot": "86",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 281,
+      "contract": "Contract.sol:SomeContract",
+      "label": "pressed",
+      "offset": 0,
+      "slot": "87",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 283,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mixed",
+      "offset": 0,
+      "slot": "88",
+      "type": "t_bytes12"
+    },
+    {
+      "astId": 285,
+      "contract": "Contract.sol:SomeContract",
+      "label": "tunes",
+      "offset": 12,
+      "slot": "88",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 287,
+      "contract": "Contract.sol:SomeContract",
+      "label": "painted",
+      "offset": 0,
+      "slot": "89",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 289,
+      "contract": "Contract.sol:SomeContract",
+      "label": "portal",
+      "offset": 15,
+      "slot": "89",
+      "type": "t_bytes10"
+    },
+    {
+      "astId": 291,
+      "contract": "Contract.sol:SomeContract",
+      "label": "aluminium",
+      "offset": 25,
+      "slot": "89",
+      "type": "t_bytes4"
+    },
+    {
+      "astId": 293,
+      "contract": "Contract.sol:SomeContract",
+      "label": "queens",
+      "offset": 0,
+      "slot": "90",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 295,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ranked",
+      "offset": 0,
+      "slot": "91",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 297,
+      "contract": "Contract.sol:SomeContract",
+      "label": "resumes",
+      "offset": 16,
+      "slot": "91",
+      "type": "t_bytes3"
+    },
+    {
+      "astId": 299,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bow",
+      "offset": 19,
+      "slot": "91",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 301,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ukraine",
+      "offset": 0,
+      "slot": "92",
+      "type": "t_bytes28"
+    },
+    {
+      "astId": 303,
+      "contract": "Contract.sol:SomeContract",
+      "label": "accommodations",
+      "offset": 0,
+      "slot": "93",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 305,
+      "contract": "Contract.sol:SomeContract",
+      "label": "organ",
+      "offset": 13,
+      "slot": "93",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 307,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ntsc",
+      "offset": 15,
+      "slot": "93",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 309,
+      "contract": "Contract.sol:SomeContract",
+      "label": "pension",
+      "offset": 0,
+      "slot": "94",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 311,
+      "contract": "Contract.sol:SomeContract",
+      "label": "exotic",
+      "offset": 0,
+      "slot": "95",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 313,
+      "contract": "Contract.sol:SomeContract",
+      "label": "analyzed",
+      "offset": 0,
+      "slot": "96",
+      "type": "t_bytes21"
+    },
+    {
+      "astId": 315,
+      "contract": "Contract.sol:SomeContract",
+      "label": "seemed",
+      "offset": 0,
+      "slot": "97",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 317,
+      "contract": "Contract.sol:SomeContract",
+      "label": "blowing",
+      "offset": 0,
+      "slot": "98",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 319,
+      "contract": "Contract.sol:SomeContract",
+      "label": "office",
+      "offset": 0,
+      "slot": "99",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 321,
+      "contract": "Contract.sol:SomeContract",
+      "label": "programs",
+      "offset": 23,
+      "slot": "99",
+      "type": "t_bytes1"
+    },
+    {
+      "astId": 323,
+      "contract": "Contract.sol:SomeContract",
+      "label": "casinos",
+      "offset": 0,
+      "slot": "100",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 325,
+      "contract": "Contract.sol:SomeContract",
+      "label": "irrigation",
+      "offset": 0,
+      "slot": "101",
+      "type": "t_bytes22"
+    },
+    {
+      "astId": 327,
+      "contract": "Contract.sol:SomeContract",
+      "label": "aerospace",
+      "offset": 22,
+      "slot": "101",
+      "type": "t_bytes9"
+    },
+    {
+      "astId": 329,
+      "contract": "Contract.sol:SomeContract",
+      "label": "parallel",
+      "offset": 0,
+      "slot": "102",
+      "type": "t_bytes22"
+    },
+    {
+      "astId": 331,
+      "contract": "Contract.sol:SomeContract",
+      "label": "dasdddbvfav",
+      "offset": 0,
+      "slot": "103",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 333,
+      "contract": "Contract.sol:SomeContract",
+      "label": "belongs",
+      "offset": 27,
+      "slot": "103",
+      "type": "t_bytes3"
+    },
+    {
+      "astId": 335,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ends",
+      "offset": 0,
+      "slot": "104",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 337,
+      "contract": "Contract.sol:SomeContract",
+      "label": "mechanisms",
+      "offset": 14,
+      "slot": "104",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 339,
+      "contract": "Contract.sol:SomeContract",
+      "label": "virtue",
+      "offset": 0,
+      "slot": "105",
+      "type": "t_bytes15"
+    },
+    {
+      "astId": 341,
+      "contract": "Contract.sol:SomeContract",
+      "label": "fantastic",
+      "offset": 0,
+      "slot": "106",
+      "type": "t_bytes19"
+    },
+    {
+      "astId": 343,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bowl",
+      "offset": 19,
+      "slot": "106",
+      "type": "t_bytes12"
+    },
+    {
+      "astId": 345,
+      "contract": "Contract.sol:SomeContract",
+      "label": "salary",
+      "offset": 0,
+      "slot": "107",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 347,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bizrate",
+      "offset": 0,
+      "slot": "108",
+      "type": "t_bytes19"
+    },
+    {
+      "astId": 349,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ease",
+      "offset": 0,
+      "slot": "109",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 351,
+      "contract": "Contract.sol:SomeContract",
+      "label": "peterson",
+      "offset": 0,
+      "slot": "110",
+      "type": "t_bytes18"
+    },
+    {
+      "astId": 353,
+      "contract": "Contract.sol:SomeContract",
+      "label": "username",
+      "offset": 0,
+      "slot": "111",
+      "type": "t_bytes28"
+    },
+    {
+      "astId": 355,
+      "contract": "Contract.sol:SomeContract",
+      "label": "slim",
+      "offset": 0,
+      "slot": "112",
+      "type": "t_bytes23"
+    },
+    {
+      "astId": 357,
+      "contract": "Contract.sol:SomeContract",
+      "label": "democracy",
+      "offset": 0,
+      "slot": "113",
+      "type": "t_bytes14"
+    },
+    {
+      "astId": 359,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bouquet",
+      "offset": 0,
+      "slot": "114",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 361,
+      "contract": "Contract.sol:SomeContract",
+      "label": "presenting",
+      "offset": 20,
+      "slot": "114",
+      "type": "t_bytes10"
+    },
+    {
+      "astId": 363,
+      "contract": "Contract.sol:SomeContract",
+      "label": "browse",
+      "offset": 0,
+      "slot": "115",
+      "type": "t_bytes18"
+    },
+    {
+      "astId": 365,
+      "contract": "Contract.sol:SomeContract",
+      "label": "ld",
+      "offset": 0,
+      "slot": "116",
+      "type": "t_bytes18"
+    },
+    {
+      "astId": 367,
+      "contract": "Contract.sol:SomeContract",
+      "label": "stanley",
+      "offset": 0,
+      "slot": "117",
+      "type": "t_bytes32"
+    },
+    {
+      "astId": 369,
+      "contract": "Contract.sol:SomeContract",
+      "label": "welcome",
+      "offset": 0,
+      "slot": "118",
+      "type": "t_bytes1"
+    },
+    {
+      "astId": 371,
+      "contract": "Contract.sol:SomeContract",
+      "label": "olympics",
+      "offset": 1,
+      "slot": "118",
+      "type": "t_bytes18"
+    },
+    {
+      "astId": 373,
+      "contract": "Contract.sol:SomeContract",
+      "label": "happiness",
+      "offset": 0,
+      "slot": "119",
+      "type": "t_bytes29"
+    },
+    {
+      "astId": 375,
+      "contract": "Contract.sol:SomeContract",
+      "label": "boolean",
+      "offset": 0,
+      "slot": "120",
+      "type": "t_bytes22"
+    },
+    {
+      "astId": 377,
+      "contract": "Contract.sol:SomeContract",
+      "label": "nutritional",
+      "offset": 0,
+      "slot": "121",
+      "type": "t_bytes21"
+    },
+    {
+      "astId": 379,
+      "contract": "Contract.sol:SomeContract",
+      "label": "cameras",
+      "offset": 0,
+      "slot": "122",
+      "type": "t_bytes27"
+    },
+    {
+      "astId": 381,
+      "contract": "Contract.sol:SomeContract",
+      "label": "encountered",
+      "offset": 0,
+      "slot": "123",
+      "type": "t_bytes8"
+    },
+    {
+      "astId": 383,
+      "contract": "Contract.sol:SomeContract",
+      "label": "terry",
+      "offset": 8,
+      "slot": "123",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 385,
+      "contract": "Contract.sol:SomeContract",
+      "label": "genetics",
+      "offset": 0,
+      "slot": "124",
+      "type": "t_bytes30"
+    },
+    {
+      "astId": 387,
+      "contract": "Contract.sol:SomeContract",
+      "label": "more",
+      "offset": 0,
+      "slot": "125",
+      "type": "t_bytes13"
+    },
+    {
+      "astId": 389,
+      "contract": "Contract.sol:SomeContract",
+      "label": "pdas",
+      "offset": 0,
+      "slot": "126",
+      "type": "t_bytes24"
+    },
+    {
+      "astId": 391,
+      "contract": "Contract.sol:SomeContract",
+      "label": "hearts",
+      "offset": 0,
+      "slot": "127",
+      "type": "t_bytes31"
+    },
+    {
+      "astId": 393,
+      "contract": "Contract.sol:SomeContract",
+      "label": "argue",
+      "offset": 0,
+      "slot": "128",
+      "type": "t_bytes20"
+    },
+    {
+      "astId": 395,
+      "contract": "Contract.sol:SomeContract",
+      "label": "radius",
+      "offset": 0,
+      "slot": "129",
+      "type": "t_bytes28"
+    },
+    {
+      "astId": 397,
+      "contract": "Contract.sol:SomeContract",
+      "label": "prof",
+      "offset": 0,
+      "slot": "130",
+      "type": "t_bytes12"
+    },
+    {
+      "astId": 399,
+      "contract": "Contract.sol:SomeContract",
+      "label": "used",
+      "offset": 0,
+      "slot": "131",
+      "type": "t_bytes28"
+    },
+    {
+      "astId": 401,
+      "contract": "Contract.sol:SomeContract",
+      "label": "bi",
+      "offset": 28,
+      "slot": "131",
+      "type": "t_bytes4"
+    }
+  ],
+  "types": {
+    "t_bytes1": {
+      "encoding": "inplace",
+      "label": "bytes1",
+      "numberOfBytes": "1"
+    },
+    "t_bytes10": {
+      "encoding": "inplace",
+      "label": "bytes10",
+      "numberOfBytes": "10"
+    },
+    "t_bytes11": {
+      "encoding": "inplace",
+      "label": "bytes11",
+      "numberOfBytes": "11"
+    },
+    "t_bytes12": {
+      "encoding": "inplace",
+      "label": "bytes12",
+      "numberOfBytes": "12"
+    },
+    "t_bytes13": {
+      "encoding": "inplace",
+      "label": "bytes13",
+      "numberOfBytes": "13"
+    },
+    "t_bytes14": {
+      "encoding": "inplace",
+      "label": "bytes14",
+      "numberOfBytes": "14"
+    },
+    "t_bytes15": {
+      "encoding": "inplace",
+      "label": "bytes15",
+      "numberOfBytes": "15"
+    },
+    "t_bytes16": {
+      "encoding": "inplace",
+      "label": "bytes16",
+      "numberOfBytes": "16"
+    },
+    "t_bytes17": {
+      "encoding": "inplace",
+      "label": "bytes17",
+      "numberOfBytes": "17"
+    },
+    "t_bytes18": {
+      "encoding": "inplace",
+      "label": "bytes18",
+      "numberOfBytes": "18"
+    },
+    "t_bytes19": {
+      "encoding": "inplace",
+      "label": "bytes19",
+      "numberOfBytes": "19"
+    },
+    "t_bytes2": {
+      "encoding": "inplace",
+      "label": "bytes2",
+      "numberOfBytes": "2"
+    },
+    "t_bytes20": {
+      "encoding": "inplace",
+      "label": "bytes20",
+      "numberOfBytes": "20"
+    },
+    "t_bytes21": {
+      "encoding": "inplace",
+      "label": "bytes21",
+      "numberOfBytes": "21"
+    },
+    "t_bytes22": {
+      "encoding": "inplace",
+      "label": "bytes22",
+      "numberOfBytes": "22"
+    },
+    "t_bytes23": {
+      "encoding": "inplace",
+      "label": "bytes23",
+      "numberOfBytes": "23"
+    },
+    "t_bytes24": {
+      "encoding": "inplace",
+      "label": "bytes24",
+      "numberOfBytes": "24"
+    },
+    "t_bytes25": {
+      "encoding": "inplace",
+      "label": "bytes25",
+      "numberOfBytes": "25"
+    },
+    "t_bytes26": {
+      "encoding": "inplace",
+      "label": "bytes26",
+      "numberOfBytes": "26"
+    },
+    "t_bytes27": {
+      "encoding": "inplace",
+      "label": "bytes27",
+      "numberOfBytes": "27"
+    },
+    "t_bytes28": {
+      "encoding": "inplace",
+      "label": "bytes28",
+      "numberOfBytes": "28"
+    },
+    "t_bytes29": {
+      "encoding": "inplace",
+      "label": "bytes29",
+      "numberOfBytes": "29"
+    },
+    "t_bytes3": {
+      "encoding": "inplace",
+      "label": "bytes3",
+      "numberOfBytes": "3"
+    },
+    "t_bytes30": {
+      "encoding": "inplace",
+      "label": "bytes30",
+      "numberOfBytes": "30"
+    },
+    "t_bytes31": {
+      "encoding": "inplace",
+      "label": "bytes31",
+      "numberOfBytes": "31"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_bytes4": {
+      "encoding": "inplace",
+      "label": "bytes4",
+      "numberOfBytes": "4"
+    },
+    "t_bytes5": {
+      "encoding": "inplace",
+      "label": "bytes5",
+      "numberOfBytes": "5"
+    },
+    "t_bytes6": {
+      "encoding": "inplace",
+      "label": "bytes6",
+      "numberOfBytes": "6"
+    },
+    "t_bytes7": {
+      "encoding": "inplace",
+      "label": "bytes7",
+      "numberOfBytes": "7"
+    },
+    "t_bytes8": {
+      "encoding": "inplace",
+      "label": "bytes8",
+      "numberOfBytes": "8"
+    },
+    "t_bytes9": {
+      "encoding": "inplace",
+      "label": "bytes9",
+      "numberOfBytes": "9"
+    }
+  }
+}

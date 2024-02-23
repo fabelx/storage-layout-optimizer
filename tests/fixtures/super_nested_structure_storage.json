@@ -1,0 +1,3960 @@
+{
+  "storage": [
+    {
+      "astId": 1011,
+      "contract": "Contract.sol:SomeContract",
+      "label": "person",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_struct(Person100)1008_storage"
+    }
+  ],
+  "types": {
+    "t_bool": {
+      "encoding": "inplace",
+      "label": "bool",
+      "numberOfBytes": "1"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    },
+    "t_struct(Person)8_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person",
+      "members": [
+        {
+          "astId": 3,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 5,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 7,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        }
+      ],
+      "numberOfBytes": "96"
+    },
+    "t_struct(Person1)18_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person1",
+      "members": [
+        {
+          "astId": 10,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 12,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 14,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 17,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person)8_storage"
+        }
+      ],
+      "numberOfBytes": "192"
+    },
+    "t_struct(Person10)108_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person10",
+      "members": [
+        {
+          "astId": 100,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 102,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 104,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 107,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p9",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person9)98_storage"
+        }
+      ],
+      "numberOfBytes": "1056"
+    },
+    "t_struct(Person100)1008_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person100",
+      "members": [
+        {
+          "astId": 1000,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 1002,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 1004,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 1007,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p99",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person99)998_storage"
+        }
+      ],
+      "numberOfBytes": "9696"
+    },
+    "t_struct(Person11)118_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person11",
+      "members": [
+        {
+          "astId": 110,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 112,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 114,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 117,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p10",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person10)108_storage"
+        }
+      ],
+      "numberOfBytes": "1152"
+    },
+    "t_struct(Person12)128_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person12",
+      "members": [
+        {
+          "astId": 120,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 122,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 124,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 127,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p11",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person11)118_storage"
+        }
+      ],
+      "numberOfBytes": "1248"
+    },
+    "t_struct(Person13)138_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person13",
+      "members": [
+        {
+          "astId": 130,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 132,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 134,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 137,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p12",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person12)128_storage"
+        }
+      ],
+      "numberOfBytes": "1344"
+    },
+    "t_struct(Person14)148_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person14",
+      "members": [
+        {
+          "astId": 140,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 142,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 144,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 147,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p13",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person13)138_storage"
+        }
+      ],
+      "numberOfBytes": "1440"
+    },
+    "t_struct(Person15)158_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person15",
+      "members": [
+        {
+          "astId": 150,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 152,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 154,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 157,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p14",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person14)148_storage"
+        }
+      ],
+      "numberOfBytes": "1536"
+    },
+    "t_struct(Person16)168_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person16",
+      "members": [
+        {
+          "astId": 160,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 162,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 164,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 167,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p15",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person15)158_storage"
+        }
+      ],
+      "numberOfBytes": "1632"
+    },
+    "t_struct(Person17)178_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person17",
+      "members": [
+        {
+          "astId": 170,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 172,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 174,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 177,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p16",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person16)168_storage"
+        }
+      ],
+      "numberOfBytes": "1728"
+    },
+    "t_struct(Person18)188_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person18",
+      "members": [
+        {
+          "astId": 180,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 182,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 184,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 187,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p17",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person17)178_storage"
+        }
+      ],
+      "numberOfBytes": "1824"
+    },
+    "t_struct(Person19)198_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person19",
+      "members": [
+        {
+          "astId": 190,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 192,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 194,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 197,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p18",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person18)188_storage"
+        }
+      ],
+      "numberOfBytes": "1920"
+    },
+    "t_struct(Person2)28_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person2",
+      "members": [
+        {
+          "astId": 20,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 22,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 24,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 27,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p1",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person1)18_storage"
+        }
+      ],
+      "numberOfBytes": "288"
+    },
+    "t_struct(Person20)208_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person20",
+      "members": [
+        {
+          "astId": 200,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 202,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 204,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 207,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p19",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person19)198_storage"
+        }
+      ],
+      "numberOfBytes": "2016"
+    },
+    "t_struct(Person21)218_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person21",
+      "members": [
+        {
+          "astId": 210,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 212,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 214,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 217,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p20",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person20)208_storage"
+        }
+      ],
+      "numberOfBytes": "2112"
+    },
+    "t_struct(Person22)228_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person22",
+      "members": [
+        {
+          "astId": 220,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 222,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 224,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 227,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p21",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person21)218_storage"
+        }
+      ],
+      "numberOfBytes": "2208"
+    },
+    "t_struct(Person23)238_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person23",
+      "members": [
+        {
+          "astId": 230,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 232,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 234,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 237,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p22",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person22)228_storage"
+        }
+      ],
+      "numberOfBytes": "2304"
+    },
+    "t_struct(Person24)248_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person24",
+      "members": [
+        {
+          "astId": 240,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 242,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 244,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 247,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p23",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person23)238_storage"
+        }
+      ],
+      "numberOfBytes": "2400"
+    },
+    "t_struct(Person25)258_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person25",
+      "members": [
+        {
+          "astId": 250,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 252,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 254,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 257,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p24",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person24)248_storage"
+        }
+      ],
+      "numberOfBytes": "2496"
+    },
+    "t_struct(Person26)268_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person26",
+      "members": [
+        {
+          "astId": 260,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 262,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 264,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 267,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p25",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person25)258_storage"
+        }
+      ],
+      "numberOfBytes": "2592"
+    },
+    "t_struct(Person27)278_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person27",
+      "members": [
+        {
+          "astId": 270,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 272,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 274,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 277,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p26",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person26)268_storage"
+        }
+      ],
+      "numberOfBytes": "2688"
+    },
+    "t_struct(Person28)288_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person28",
+      "members": [
+        {
+          "astId": 280,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 282,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 284,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 287,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p27",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person27)278_storage"
+        }
+      ],
+      "numberOfBytes": "2784"
+    },
+    "t_struct(Person29)298_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person29",
+      "members": [
+        {
+          "astId": 290,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 292,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 294,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 297,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p28",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person28)288_storage"
+        }
+      ],
+      "numberOfBytes": "2880"
+    },
+    "t_struct(Person3)38_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person3",
+      "members": [
+        {
+          "astId": 30,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 32,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 34,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 37,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p2",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person2)28_storage"
+        }
+      ],
+      "numberOfBytes": "384"
+    },
+    "t_struct(Person30)308_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person30",
+      "members": [
+        {
+          "astId": 300,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 302,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 304,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 307,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p29",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person29)298_storage"
+        }
+      ],
+      "numberOfBytes": "2976"
+    },
+    "t_struct(Person31)318_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person31",
+      "members": [
+        {
+          "astId": 310,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 312,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 314,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 317,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p30",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person30)308_storage"
+        }
+      ],
+      "numberOfBytes": "3072"
+    },
+    "t_struct(Person32)328_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person32",
+      "members": [
+        {
+          "astId": 320,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 322,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 324,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 327,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p31",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person31)318_storage"
+        }
+      ],
+      "numberOfBytes": "3168"
+    },
+    "t_struct(Person33)338_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person33",
+      "members": [
+        {
+          "astId": 330,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 332,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 334,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 337,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p32",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person32)328_storage"
+        }
+      ],
+      "numberOfBytes": "3264"
+    },
+    "t_struct(Person34)348_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person34",
+      "members": [
+        {
+          "astId": 340,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 342,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 344,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 347,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p33",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person33)338_storage"
+        }
+      ],
+      "numberOfBytes": "3360"
+    },
+    "t_struct(Person35)358_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person35",
+      "members": [
+        {
+          "astId": 350,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 352,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 354,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 357,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p34",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person34)348_storage"
+        }
+      ],
+      "numberOfBytes": "3456"
+    },
+    "t_struct(Person36)368_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person36",
+      "members": [
+        {
+          "astId": 360,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 362,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 364,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 367,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p35",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person35)358_storage"
+        }
+      ],
+      "numberOfBytes": "3552"
+    },
+    "t_struct(Person37)378_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person37",
+      "members": [
+        {
+          "astId": 370,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 372,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 374,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 377,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p36",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person36)368_storage"
+        }
+      ],
+      "numberOfBytes": "3648"
+    },
+    "t_struct(Person38)388_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person38",
+      "members": [
+        {
+          "astId": 380,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 382,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 384,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 387,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p37",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person37)378_storage"
+        }
+      ],
+      "numberOfBytes": "3744"
+    },
+    "t_struct(Person39)398_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person39",
+      "members": [
+        {
+          "astId": 390,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 392,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 394,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 397,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p38",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person38)388_storage"
+        }
+      ],
+      "numberOfBytes": "3840"
+    },
+    "t_struct(Person4)48_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person4",
+      "members": [
+        {
+          "astId": 40,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 42,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 44,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 47,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p3",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person3)38_storage"
+        }
+      ],
+      "numberOfBytes": "480"
+    },
+    "t_struct(Person40)408_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person40",
+      "members": [
+        {
+          "astId": 400,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 402,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 404,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 407,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p39",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person39)398_storage"
+        }
+      ],
+      "numberOfBytes": "3936"
+    },
+    "t_struct(Person41)418_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person41",
+      "members": [
+        {
+          "astId": 410,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 412,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 414,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 417,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p40",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person40)408_storage"
+        }
+      ],
+      "numberOfBytes": "4032"
+    },
+    "t_struct(Person42)428_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person42",
+      "members": [
+        {
+          "astId": 420,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 422,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 424,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 427,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p41",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person41)418_storage"
+        }
+      ],
+      "numberOfBytes": "4128"
+    },
+    "t_struct(Person43)438_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person43",
+      "members": [
+        {
+          "astId": 430,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 432,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 434,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 437,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p42",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person42)428_storage"
+        }
+      ],
+      "numberOfBytes": "4224"
+    },
+    "t_struct(Person44)448_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person44",
+      "members": [
+        {
+          "astId": 440,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 442,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 444,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 447,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p43",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person43)438_storage"
+        }
+      ],
+      "numberOfBytes": "4320"
+    },
+    "t_struct(Person45)458_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person45",
+      "members": [
+        {
+          "astId": 450,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 452,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 454,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 457,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p44",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person44)448_storage"
+        }
+      ],
+      "numberOfBytes": "4416"
+    },
+    "t_struct(Person46)468_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person46",
+      "members": [
+        {
+          "astId": 460,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 462,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 464,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 467,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p45",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person45)458_storage"
+        }
+      ],
+      "numberOfBytes": "4512"
+    },
+    "t_struct(Person47)478_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person47",
+      "members": [
+        {
+          "astId": 470,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 472,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 474,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 477,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p46",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person46)468_storage"
+        }
+      ],
+      "numberOfBytes": "4608"
+    },
+    "t_struct(Person48)488_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person48",
+      "members": [
+        {
+          "astId": 480,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 482,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 484,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 487,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p47",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person47)478_storage"
+        }
+      ],
+      "numberOfBytes": "4704"
+    },
+    "t_struct(Person49)498_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person49",
+      "members": [
+        {
+          "astId": 490,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 492,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 494,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 497,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p48",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person48)488_storage"
+        }
+      ],
+      "numberOfBytes": "4800"
+    },
+    "t_struct(Person5)58_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person5",
+      "members": [
+        {
+          "astId": 50,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 52,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 54,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 57,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p4",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person4)48_storage"
+        }
+      ],
+      "numberOfBytes": "576"
+    },
+    "t_struct(Person50)508_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person50",
+      "members": [
+        {
+          "astId": 500,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 502,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 504,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 507,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p49",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person49)498_storage"
+        }
+      ],
+      "numberOfBytes": "4896"
+    },
+    "t_struct(Person51)518_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person51",
+      "members": [
+        {
+          "astId": 510,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 512,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 514,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 517,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p50",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person50)508_storage"
+        }
+      ],
+      "numberOfBytes": "4992"
+    },
+    "t_struct(Person52)528_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person52",
+      "members": [
+        {
+          "astId": 520,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 522,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 524,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 527,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p51",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person51)518_storage"
+        }
+      ],
+      "numberOfBytes": "5088"
+    },
+    "t_struct(Person53)538_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person53",
+      "members": [
+        {
+          "astId": 530,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 532,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 534,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 537,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p52",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person52)528_storage"
+        }
+      ],
+      "numberOfBytes": "5184"
+    },
+    "t_struct(Person54)548_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person54",
+      "members": [
+        {
+          "astId": 540,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 542,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 544,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 547,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p53",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person53)538_storage"
+        }
+      ],
+      "numberOfBytes": "5280"
+    },
+    "t_struct(Person55)558_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person55",
+      "members": [
+        {
+          "astId": 550,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 552,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 554,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 557,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p54",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person54)548_storage"
+        }
+      ],
+      "numberOfBytes": "5376"
+    },
+    "t_struct(Person56)568_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person56",
+      "members": [
+        {
+          "astId": 560,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 562,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 564,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 567,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p55",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person55)558_storage"
+        }
+      ],
+      "numberOfBytes": "5472"
+    },
+    "t_struct(Person57)578_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person57",
+      "members": [
+        {
+          "astId": 570,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 572,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 574,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 577,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p56",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person56)568_storage"
+        }
+      ],
+      "numberOfBytes": "5568"
+    },
+    "t_struct(Person58)588_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person58",
+      "members": [
+        {
+          "astId": 580,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 582,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 584,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 587,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p57",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person57)578_storage"
+        }
+      ],
+      "numberOfBytes": "5664"
+    },
+    "t_struct(Person59)598_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person59",
+      "members": [
+        {
+          "astId": 590,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 592,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 594,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 597,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p58",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person58)588_storage"
+        }
+      ],
+      "numberOfBytes": "5760"
+    },
+    "t_struct(Person6)68_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person6",
+      "members": [
+        {
+          "astId": 60,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 62,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 64,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 67,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p5",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person5)58_storage"
+        }
+      ],
+      "numberOfBytes": "672"
+    },
+    "t_struct(Person60)608_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person60",
+      "members": [
+        {
+          "astId": 600,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 602,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 604,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 607,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p59",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person59)598_storage"
+        }
+      ],
+      "numberOfBytes": "5856"
+    },
+    "t_struct(Person61)618_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person61",
+      "members": [
+        {
+          "astId": 610,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 612,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 614,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 617,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p60",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person60)608_storage"
+        }
+      ],
+      "numberOfBytes": "5952"
+    },
+    "t_struct(Person62)628_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person62",
+      "members": [
+        {
+          "astId": 620,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 622,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 624,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 627,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p61",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person61)618_storage"
+        }
+      ],
+      "numberOfBytes": "6048"
+    },
+    "t_struct(Person63)638_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person63",
+      "members": [
+        {
+          "astId": 630,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 632,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 634,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 637,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p62",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person62)628_storage"
+        }
+      ],
+      "numberOfBytes": "6144"
+    },
+    "t_struct(Person64)648_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person64",
+      "members": [
+        {
+          "astId": 640,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 642,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 644,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 647,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p63",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person63)638_storage"
+        }
+      ],
+      "numberOfBytes": "6240"
+    },
+    "t_struct(Person65)658_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person65",
+      "members": [
+        {
+          "astId": 650,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 652,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 654,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 657,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p64",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person64)648_storage"
+        }
+      ],
+      "numberOfBytes": "6336"
+    },
+    "t_struct(Person66)668_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person66",
+      "members": [
+        {
+          "astId": 660,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 662,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 664,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 667,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p65",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person65)658_storage"
+        }
+      ],
+      "numberOfBytes": "6432"
+    },
+    "t_struct(Person67)678_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person67",
+      "members": [
+        {
+          "astId": 670,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 672,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 674,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 677,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p66",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person66)668_storage"
+        }
+      ],
+      "numberOfBytes": "6528"
+    },
+    "t_struct(Person68)688_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person68",
+      "members": [
+        {
+          "astId": 680,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 682,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 684,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 687,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p67",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person67)678_storage"
+        }
+      ],
+      "numberOfBytes": "6624"
+    },
+    "t_struct(Person69)698_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person69",
+      "members": [
+        {
+          "astId": 690,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 692,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 694,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 697,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p68",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person68)688_storage"
+        }
+      ],
+      "numberOfBytes": "6720"
+    },
+    "t_struct(Person7)78_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person7",
+      "members": [
+        {
+          "astId": 70,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 72,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 74,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 77,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p6",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person6)68_storage"
+        }
+      ],
+      "numberOfBytes": "768"
+    },
+    "t_struct(Person70)708_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person70",
+      "members": [
+        {
+          "astId": 700,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 702,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 704,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 707,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p69",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person69)698_storage"
+        }
+      ],
+      "numberOfBytes": "6816"
+    },
+    "t_struct(Person71)718_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person71",
+      "members": [
+        {
+          "astId": 710,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 712,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 714,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 717,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p70",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person70)708_storage"
+        }
+      ],
+      "numberOfBytes": "6912"
+    },
+    "t_struct(Person72)728_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person72",
+      "members": [
+        {
+          "astId": 720,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 722,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 724,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 727,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p71",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person71)718_storage"
+        }
+      ],
+      "numberOfBytes": "7008"
+    },
+    "t_struct(Person73)738_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person73",
+      "members": [
+        {
+          "astId": 730,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 732,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 734,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 737,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p72",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person72)728_storage"
+        }
+      ],
+      "numberOfBytes": "7104"
+    },
+    "t_struct(Person74)748_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person74",
+      "members": [
+        {
+          "astId": 740,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 742,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 744,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 747,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p73",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person73)738_storage"
+        }
+      ],
+      "numberOfBytes": "7200"
+    },
+    "t_struct(Person75)758_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person75",
+      "members": [
+        {
+          "astId": 750,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 752,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 754,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 757,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p74",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person74)748_storage"
+        }
+      ],
+      "numberOfBytes": "7296"
+    },
+    "t_struct(Person76)768_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person76",
+      "members": [
+        {
+          "astId": 760,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 762,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 764,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 767,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p75",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person75)758_storage"
+        }
+      ],
+      "numberOfBytes": "7392"
+    },
+    "t_struct(Person77)778_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person77",
+      "members": [
+        {
+          "astId": 770,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 772,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 774,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 777,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p76",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person76)768_storage"
+        }
+      ],
+      "numberOfBytes": "7488"
+    },
+    "t_struct(Person78)788_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person78",
+      "members": [
+        {
+          "astId": 780,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 782,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 784,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 787,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p77",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person77)778_storage"
+        }
+      ],
+      "numberOfBytes": "7584"
+    },
+    "t_struct(Person79)798_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person79",
+      "members": [
+        {
+          "astId": 790,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 792,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 794,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 797,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p78",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person78)788_storage"
+        }
+      ],
+      "numberOfBytes": "7680"
+    },
+    "t_struct(Person8)88_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person8",
+      "members": [
+        {
+          "astId": 80,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 82,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 84,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 87,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p7",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person7)78_storage"
+        }
+      ],
+      "numberOfBytes": "864"
+    },
+    "t_struct(Person80)808_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person80",
+      "members": [
+        {
+          "astId": 800,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 802,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 804,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 807,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p79",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person79)798_storage"
+        }
+      ],
+      "numberOfBytes": "7776"
+    },
+    "t_struct(Person81)818_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person81",
+      "members": [
+        {
+          "astId": 810,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 812,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 814,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 817,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p80",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person80)808_storage"
+        }
+      ],
+      "numberOfBytes": "7872"
+    },
+    "t_struct(Person82)828_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person82",
+      "members": [
+        {
+          "astId": 820,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 822,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 824,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 827,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p81",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person81)818_storage"
+        }
+      ],
+      "numberOfBytes": "7968"
+    },
+    "t_struct(Person83)838_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person83",
+      "members": [
+        {
+          "astId": 830,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 832,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 834,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 837,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p82",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person82)828_storage"
+        }
+      ],
+      "numberOfBytes": "8064"
+    },
+    "t_struct(Person84)848_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person84",
+      "members": [
+        {
+          "astId": 840,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 842,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 844,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 847,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p83",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person83)838_storage"
+        }
+      ],
+      "numberOfBytes": "8160"
+    },
+    "t_struct(Person85)858_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person85",
+      "members": [
+        {
+          "astId": 850,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 852,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 854,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 857,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p84",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person84)848_storage"
+        }
+      ],
+      "numberOfBytes": "8256"
+    },
+    "t_struct(Person86)868_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person86",
+      "members": [
+        {
+          "astId": 860,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 862,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 864,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 867,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p85",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person85)858_storage"
+        }
+      ],
+      "numberOfBytes": "8352"
+    },
+    "t_struct(Person87)878_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person87",
+      "members": [
+        {
+          "astId": 870,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 872,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 874,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 877,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p86",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person86)868_storage"
+        }
+      ],
+      "numberOfBytes": "8448"
+    },
+    "t_struct(Person88)888_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person88",
+      "members": [
+        {
+          "astId": 880,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 882,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 884,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 887,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p87",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person87)878_storage"
+        }
+      ],
+      "numberOfBytes": "8544"
+    },
+    "t_struct(Person89)898_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person89",
+      "members": [
+        {
+          "astId": 890,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 892,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 894,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 897,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p88",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person88)888_storage"
+        }
+      ],
+      "numberOfBytes": "8640"
+    },
+    "t_struct(Person9)98_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person9",
+      "members": [
+        {
+          "astId": 90,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 92,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 94,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 97,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p8",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person8)88_storage"
+        }
+      ],
+      "numberOfBytes": "960"
+    },
+    "t_struct(Person90)908_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person90",
+      "members": [
+        {
+          "astId": 900,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 902,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 904,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 907,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p89",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person89)898_storage"
+        }
+      ],
+      "numberOfBytes": "8736"
+    },
+    "t_struct(Person91)918_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person91",
+      "members": [
+        {
+          "astId": 910,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 912,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 914,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 917,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p90",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person90)908_storage"
+        }
+      ],
+      "numberOfBytes": "8832"
+    },
+    "t_struct(Person92)928_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person92",
+      "members": [
+        {
+          "astId": 920,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 922,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 924,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 927,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p91",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person91)918_storage"
+        }
+      ],
+      "numberOfBytes": "8928"
+    },
+    "t_struct(Person93)938_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person93",
+      "members": [
+        {
+          "astId": 930,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 932,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 934,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 937,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p92",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person92)928_storage"
+        }
+      ],
+      "numberOfBytes": "9024"
+    },
+    "t_struct(Person94)948_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person94",
+      "members": [
+        {
+          "astId": 940,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 942,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 944,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 947,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p93",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person93)938_storage"
+        }
+      ],
+      "numberOfBytes": "9120"
+    },
+    "t_struct(Person95)958_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person95",
+      "members": [
+        {
+          "astId": 950,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 952,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 954,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 957,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p94",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person94)948_storage"
+        }
+      ],
+      "numberOfBytes": "9216"
+    },
+    "t_struct(Person96)968_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person96",
+      "members": [
+        {
+          "astId": 960,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 962,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 964,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 967,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p95",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person95)958_storage"
+        }
+      ],
+      "numberOfBytes": "9312"
+    },
+    "t_struct(Person97)978_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person97",
+      "members": [
+        {
+          "astId": 970,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 972,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 974,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 977,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p96",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person96)968_storage"
+        }
+      ],
+      "numberOfBytes": "9408"
+    },
+    "t_struct(Person98)988_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person98",
+      "members": [
+        {
+          "astId": 980,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 982,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 984,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 987,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p97",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person97)978_storage"
+        }
+      ],
+      "numberOfBytes": "9504"
+    },
+    "t_struct(Person99)998_storage": {
+      "encoding": "inplace",
+      "label": "struct SomeContract.Person99",
+      "members": [
+        {
+          "astId": 990,
+          "contract": "Contract.sol:SomeContract",
+          "label": "alive",
+          "offset": 0,
+          "slot": "0",
+          "type": "t_bool"
+        },
+        {
+          "astId": 992,
+          "contract": "Contract.sol:SomeContract",
+          "label": "name",
+          "offset": 0,
+          "slot": "1",
+          "type": "t_string_storage"
+        },
+        {
+          "astId": 994,
+          "contract": "Contract.sol:SomeContract",
+          "label": "age",
+          "offset": 0,
+          "slot": "2",
+          "type": "t_uint16"
+        },
+        {
+          "astId": 997,
+          "contract": "Contract.sol:SomeContract",
+          "label": "p98",
+          "offset": 0,
+          "slot": "3",
+          "type": "t_struct(Person98)988_storage"
+        }
+      ],
+      "numberOfBytes": "9600"
+    },
+    "t_uint16": {
+      "encoding": "inplace",
+      "label": "uint16",
+      "numberOfBytes": "2"
+    }
+  }
+}

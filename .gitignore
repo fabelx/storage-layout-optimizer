@@ -162,5 +162,4 @@ cython_debug/
 # dev folders and files
 fixtures/
 output/
-output/run.py
-
+.benchmarks/
