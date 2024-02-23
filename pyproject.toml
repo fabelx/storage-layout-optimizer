@@ -64,6 +64,9 @@ lint = [
 "Say Thanks!" = "https://saythanks.io/to/daprostovseeto"
 "Source" = "https://github.com/fabelx/storage-layout-optimizer"
 
+[project.scripts]
+sl_optimizer = "cli:main"
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
@@ -94,5 +97,6 @@ exclude = [
     "data",
     "venv*",
     ".idea",
+    "benchmark",
 ]
 select = ["E", "W", "F"]
