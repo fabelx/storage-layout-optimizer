@@ -93,13 +93,13 @@ class OptimizedStorageLayout(BaseStorageLayout):
 
     def save(
         self,
-        filepath: str = "optimized_storage_layout.json",
+        filepath: str,
         force: bool = False,
     ):
         """Save the storage layout data to a JSON file.
 
         Args:
-            filepath: Path to the file where the data will be saved. Default: optimized_storage_layout.json
+            filepath: Path to the file where the data will be saved.
             force: If True, overwrite the file even if it already exists.
 
         Returns:
