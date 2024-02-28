@@ -1,7 +1,7 @@
 {
   "storage": [
     {
-      "astId": 51,
+      "astId": 78,
       "contract": "SomeContract2.sol:SomeContract",
       "label": "val1",
       "offset": 0,
@@ -9,44 +9,44 @@
       "type": "t_bytes16"
     },
     {
-      "astId": 54,
+      "astId": 81,
       "contract": "SomeContract2.sol:SomeContract",
       "label": "catone",
       "offset": 0,
       "slot": "1",
-      "type": "t_struct(Animal)22_storage"
+      "type": "t_struct(Animal)49_storage"
     },
     {
-      "astId": 56,
+      "astId": 83,
       "contract": "SomeContract2.sol:SomeContract",
       "label": "val2",
       "offset": 0,
-      "slot": "29",
+      "slot": "119",
       "type": "t_bytes23"
     },
     {
-      "astId": 58,
+      "astId": 85,
       "contract": "SomeContract2.sol:SomeContract",
       "label": "val3",
       "offset": 0,
-      "slot": "30",
+      "slot": "120",
       "type": "t_bytes16"
     },
     {
-      "astId": 60,
+      "astId": 87,
       "contract": "SomeContract2.sol:SomeContract",
       "label": "val4",
       "offset": 16,
-      "slot": "30",
+      "slot": "120",
       "type": "t_bytes7"
     },
     {
-      "astId": 63,
+      "astId": 90,
       "contract": "SomeContract2.sol:SomeContract",
       "label": "cattwo",
       "offset": 0,
-      "slot": "31",
-      "type": "t_struct(Animal)22_storage"
+      "slot": "121",
+      "type": "t_struct(Animal)49_storage"
     }
   ],
   "types": {
@@ -98,7 +98,7 @@
       "label": "string",
       "numberOfBytes": "32"
     },
-    "t_struct(Animal)22_storage": {
+    "t_struct(Animal)49_storage": {
       "encoding": "inplace",
       "label": "struct SomeContract.Animal",
       "members": [
@@ -129,52 +129,124 @@
         {
           "astId": 12,
           "contract": "SomeContract2.sol:SomeContract",
-          "label": "home",
+          "label": "home0",
           "offset": 0,
           "slot": "3",
-          "type": "t_struct(Home)49_storage"
+          "type": "t_struct(Home)76_storage"
         },
         {
-          "astId": 14,
+          "astId": 15,
           "contract": "SomeContract2.sol:SomeContract",
-          "label": "isAlive",
+          "label": "home1",
           "offset": 0,
           "slot": "13",
-          "type": "t_bool"
-        },
-        {
-          "astId": 16,
-          "contract": "SomeContract2.sol:SomeContract",
-          "label": "salary",
-          "offset": 0,
-          "slot": "14",
-          "type": "t_uint256"
+          "type": "t_struct(Home)76_storage"
         },
         {
           "astId": 18,
           "contract": "SomeContract2.sol:SomeContract",
-          "label": "isDead",
+          "label": "home2",
           "offset": 0,
-          "slot": "15",
-          "type": "t_bool"
+          "slot": "23",
+          "type": "t_struct(Home)76_storage"
         },
         {
           "astId": 21,
           "contract": "SomeContract2.sol:SomeContract",
+          "label": "home3",
+          "offset": 0,
+          "slot": "33",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 24,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home4",
+          "offset": 0,
+          "slot": "43",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 27,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home5",
+          "offset": 0,
+          "slot": "53",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 30,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home6",
+          "offset": 0,
+          "slot": "63",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 33,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home7",
+          "offset": 0,
+          "slot": "73",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 36,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home8",
+          "offset": 0,
+          "slot": "83",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 39,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "home9",
+          "offset": 0,
+          "slot": "93",
+          "type": "t_struct(Home)76_storage"
+        },
+        {
+          "astId": 41,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isAlive",
+          "offset": 0,
+          "slot": "103",
+          "type": "t_bool"
+        },
+        {
+          "astId": 43,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "salary",
+          "offset": 0,
+          "slot": "104",
+          "type": "t_uint256"
+        },
+        {
+          "astId": 45,
+          "contract": "SomeContract2.sol:SomeContract",
+          "label": "isDead",
+          "offset": 0,
+          "slot": "105",
+          "type": "t_bool"
+        },
+        {
+          "astId": 48,
+          "contract": "SomeContract2.sol:SomeContract",
           "label": "cat",
           "offset": 0,
-          "slot": "16",
-          "type": "t_struct(Cat)32_storage"
+          "slot": "106",
+          "type": "t_struct(Cat)59_storage"
         }
       ],
-      "numberOfBytes": "896"
+      "numberOfBytes": "3776"
     },
-    "t_struct(Cat)32_storage": {
+    "t_struct(Cat)59_storage": {
       "encoding": "inplace",
       "label": "struct SomeContract.Cat",
       "members": [
         {
-          "astId": 24,
+          "astId": 51,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "age",
           "offset": 0,
@@ -182,7 +254,7 @@
           "type": "t_uint8"
         },
         {
-          "astId": 26,
+          "astId": 53,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "wallet",
           "offset": 1,
@@ -190,15 +262,15 @@
           "type": "t_address"
         },
         {
-          "astId": 29,
+          "astId": 56,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "home",
           "offset": 0,
           "slot": "1",
-          "type": "t_struct(Home)49_storage"
+          "type": "t_struct(Home)76_storage"
         },
         {
-          "astId": 31,
+          "astId": 58,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "isAlive",
           "offset": 0,
@@ -208,12 +280,12 @@
       ],
       "numberOfBytes": "384"
     },
-    "t_struct(Home)49_storage": {
+    "t_struct(Home)76_storage": {
       "encoding": "inplace",
       "label": "struct SomeContract.Home",
       "members": [
         {
-          "astId": 34,
+          "astId": 61,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "houseNumber",
           "offset": 0,
@@ -221,7 +293,7 @@
           "type": "t_uint8"
         },
         {
-          "astId": 38,
+          "astId": 65,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "owners",
           "offset": 0,
@@ -229,7 +301,7 @@
           "type": "t_array(t_bytes32)4_storage"
         },
         {
-          "astId": 40,
+          "astId": 67,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "isWaterproof",
           "offset": 0,
@@ -237,7 +309,7 @@
           "type": "t_bool"
         },
         {
-          "astId": 42,
+          "astId": 69,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "zipCode",
           "offset": 0,
@@ -245,7 +317,7 @@
           "type": "t_uint256"
         },
         {
-          "astId": 44,
+          "astId": 71,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "isFireproof",
           "offset": 0,
@@ -253,7 +325,7 @@
           "type": "t_bool"
         },
         {
-          "astId": 46,
+          "astId": 73,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "tag",
           "offset": 0,
@@ -261,7 +333,7 @@
           "type": "t_string_storage"
         },
         {
-          "astId": 48,
+          "astId": 75,
           "contract": "SomeContract2.sol:SomeContract",
           "label": "nosense",
           "offset": 0,

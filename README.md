@@ -72,6 +72,9 @@ More information [here](https://docs.soliditylang.org/en/latest/internals/layout
 </details>
 
 ___
+### Benchmark
+Benchmark results are [here](tests/benchmark/BENCHMARK.md).
+___
 
 ## Installation
 ```bash
