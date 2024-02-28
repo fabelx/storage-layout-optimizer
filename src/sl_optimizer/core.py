@@ -88,12 +88,13 @@ def __sort_items(items: list, weights: dict):
     )
 
 
-def __optimize_storage_layout(storage: list, types: dict) -> tuple:
+def __optimize_storage_layout(storage: list, types: dict, visited: set) -> tuple:
     """Recursively optimize the storage layout of variables.
 
     Args:
         storage: A list of variables representing the current storage layout.
         types: A dictionary containing information about variable types.
+        visited (Set[str]): A set to keep track of visited struct types.        
 
     Returns:
         tuple: A tuple containing the optimized storage layout and the total number of slots used.
@@ -101,11 +102,12 @@ def __optimize_storage_layout(storage: list, types: dict) -> tuple:
     for variable in storage:
         var_type_label = variable.get("type")
         # Check if the variable is a struct
-        if is_struct(var_type_label):
+        if is_struct(var_type_label) and var_type_label not in visited:
+            visited.add(var_type_label)
             var_type = types.get(var_type_label)
             # Recursively optimize the layout of struct members
             var_storage, number_of_slots = __optimize_storage_layout(
-                var_type.get("members"), types
+                var_type.get("members"), types, visited
             )
             if number_of_slots < int(var_type.get("numberOfBytes")) / SLOT_SIZE:
                 var_type["members"] = var_storage
@@ -127,7 +129,7 @@ def optimize_storage_layout(storage: list, types: dict) -> tuple:
     ntypes = copy.deepcopy(types)
     slots = get_number_of_slots(storage=storage, types=types)
     nstorage, nslots = __optimize_storage_layout(
-        storage=copy.deepcopy(storage), types=ntypes
+        storage=copy.deepcopy(storage), types=ntypes, visited=set()
     )
     # if the number of new slots is less than the current one,
     # then the new storage structure and modified types are returned.
