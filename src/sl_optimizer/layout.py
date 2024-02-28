@@ -4,6 +4,7 @@ Contains storage layout models.
 """
 import copy
 import json
+from pathlib import Path
 
 from sl_optimizer.core import optimize_storage_layout
 from sl_optimizer.utils import (
@@ -16,6 +17,7 @@ from sl_optimizer.utils import (
 __all__ = (
     "StorageLayout",
     "OptimizedStorageLayout",
+    "new_storage_layout",
 )
 
 
@@ -54,7 +56,7 @@ class BaseStorageLayout:
         """Getter for the number_of_slots property."""
         return self.__number_of_slots
 
-    def save(self, filepath: str, force: bool = False) -> str:
+    def save(self, filepath: str | Path, force: bool = False) -> str:
         """Save the storage layout data to a JSON file.
 
         Args:
@@ -93,7 +95,7 @@ class OptimizedStorageLayout(BaseStorageLayout):
 
     def save(
         self,
-        filepath: str,
+        filepath: str | Path,
         force: bool = False,
     ):
         """Save the storage layout data to a JSON file.
@@ -109,22 +111,12 @@ class OptimizedStorageLayout(BaseStorageLayout):
 
 
 class StorageLayout(BaseStorageLayout):
-    # todo: obviously overloaded __init__ method
-    def __init__(self, data: dict = None, filepath: str = None):
+    def __init__(self, data: dict):
         """Initialize the StorageLayout instance.
 
         Args:
             data: Storage layout data.
-            filepath: Path to a file containing storage layout data.
         """
-        if data is not None and filepath is not None:
-            raise ValueError("Should have data or filepath, but not both.")
-        elif data is None and filepath is None:
-            raise ValueError("Should have data or filepath, but neither is provided.")
-        elif filepath:
-            with open(filepath, mode="r") as f:
-                data = json.load(f)
-
         storage, types = parse_storage_layout(data=data)
         super().__init__(storage=storage, types=types)
 
@@ -138,3 +130,18 @@ class StorageLayout(BaseStorageLayout):
         return OptimizedStorageLayout(
             storage=copy.deepcopy(storage), types=copy.deepcopy(types)
         )
+
+
+def new_storage_layout(filepath: str | Path) -> StorageLayout:
+    """Create a new StorageLayout instance by loading data from a JSON file.
+
+    Args:
+        filepath: The path to the JSON file containing storage layout data.
+
+    Returns:
+        StorageLayout: An instance of the StorageLayout class created from the loaded data.
+    """
+    with open(filepath, mode="r") as f:
+        data = json.load(f)
+
+    return StorageLayout(data=data)

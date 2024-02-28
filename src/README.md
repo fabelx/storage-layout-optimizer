@@ -15,13 +15,13 @@ ___
 
 ## Usage
 ```python
-# import the StorageLayout class
-from sl_optimizer import StorageLayout
+# import the new_storage_layout function
+from sl_optimizer import new_storage_layout
 
 
 def main():
     # specify the filepath that contains the smart contract storage layout
-    sl = StorageLayout(filepath='SomeContract_storage.json')
+    sl = new_storage_layout(filepath='SomeContract_storage.json')
     # print the contact name
     print(sl.contract_name)
     # print the current number of allocated slots
@@ -30,7 +30,7 @@ def main():
     osl = sl.optimize()
     # save an optimized version of the storage layout to default file
     # file: optimized_storage_layout.json
-    osl.save(force=True)
+    osl.save("optimized_storage_layout.json", force=True)
     # print the current number of allocated slots for
     # an optimized version of the smart contract storage layout
     print(osl.number_of_slots)

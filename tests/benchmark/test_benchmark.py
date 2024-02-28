@@ -5,8 +5,8 @@ import tracemalloc
 
 import pytest
 from pytest_benchmark.plugin import benchmark
-from sl_optimizer.layout import StorageLayout
 
+from sl_optimizer.layout import StorageLayout
 from tests.conftest import get_fixture_path
 
 gc.disable()
@@ -14,15 +14,15 @@ gc.disable()
 
 @pytest.fixture
 def sl(filename):
-    return StorageLayout(filepath=str(get_fixture_path(filename)))
+    return StorageLayout(filepath=get_fixture_path(filename))
 
 
 @pytest.mark.parametrize(
     "filename",
     (
-            "super_nested_structure_storage.json",
-            "huge_number_of_variables_storage.json",
-            "cross_nested_structure_storage.json",
+        "super_nested_structure_storage.json",
+        "huge_number_of_variables_storage.json",
+        "cross_nested_structure_storage.json",
     ),
 )
 @pytest.mark.benchmark(disable_gc=True, warmup=True)
@@ -33,9 +33,9 @@ def test_run_benchmark(sl, benchmark):
 @pytest.mark.parametrize(
     "filename",
     (
-            "super_nested_structure_storage.json",
-            "huge_number_of_variables_storage.json",
-            "cross_nested_structure_storage.json",
+        "super_nested_structure_storage.json",
+        "huge_number_of_variables_storage.json",
+        "cross_nested_structure_storage.json",
     ),
 )
 def test_cprofile(sl):
@@ -53,9 +53,9 @@ def test_cprofile(sl):
 @pytest.mark.parametrize(
     "filename",
     (
-            "super_nested_structure_storage.json",
-            "huge_number_of_variables_storage.json",
-            "cross_nested_structure_storage.json",
+        "super_nested_structure_storage.json",
+        "huge_number_of_variables_storage.json",
+        "cross_nested_structure_storage.json",
     ),
 )
 def test_timeit(sl):

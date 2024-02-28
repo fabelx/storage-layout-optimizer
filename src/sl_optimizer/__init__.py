@@ -5,7 +5,11 @@ Just contains imports.
 
 from sl_optimizer.core import optimize_storage_layout
 from sl_optimizer.errors import LayoutError, StorageLayoutError
-from sl_optimizer.layout import OptimizedStorageLayout, StorageLayout
+from sl_optimizer.layout import (
+    OptimizedStorageLayout,
+    StorageLayout,
+    new_storage_layout,
+)
 from sl_optimizer.utils import (
     get_contact_name,
     get_number_of_slots,
@@ -16,6 +20,7 @@ __all__ = (
     # main models
     "StorageLayout",
     "OptimizedStorageLayout",
+    "new_storage_layout",
     # main function
     "optimize_storage_layout",
     # utility functions

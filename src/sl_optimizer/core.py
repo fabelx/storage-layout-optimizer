@@ -94,7 +94,7 @@ def __optimize_storage_layout(storage: list, types: dict, visited: set) -> tuple
     Args:
         storage: A list of variables representing the current storage layout.
         types: A dictionary containing information about variable types.
-        visited (Set[str]): A set to keep track of visited struct types.        
+        visited (Set[str]): A set to keep track of visited struct types.
 
     Returns:
         tuple: A tuple containing the optimized storage layout and the total number of slots used.

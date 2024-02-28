@@ -3,7 +3,7 @@ import json
 import pytest
 from deepdiff import DeepDiff
 
-from sl_optimizer import StorageLayout
+from sl_optimizer import StorageLayout, new_storage_layout
 from sl_optimizer.errors import LayoutError
 from tests.conftest import get_fixture_path, get_storage_layout
 
@@ -24,14 +24,12 @@ def sl(layout):
 
 sls = [
     (
-        StorageLayout(filepath=str(get_fixture_path("simple_4_variables.json"))),
+        new_storage_layout(get_fixture_path("simple_4_variables.json")),
         get_storage_layout("expected_simple_4_variables.json"),
     ),
     (
-        StorageLayout(
-            filepath=str(
-                get_fixture_path("sample_optimization_is_not_applied_storage.json")
-            )
+        new_storage_layout(
+            get_fixture_path("sample_optimization_is_not_applied_storage.json")
         ),
         get_storage_layout("sample_optimization_is_not_applied_storage.json"),
     ),
@@ -39,30 +37,17 @@ sls = [
 
 
 class TestStorageLayout:
-    def test_init_with_no_args(self):
-        with pytest.raises(ValueError):
-            StorageLayout()
 
-    def test_init_with_both_args(self):
-        with pytest.raises(ValueError):
-            StorageLayout(data={}, filepath="file.txt")
-
-    def test_init_with_filepath_arg_file_does_not_exist(self):
-        with pytest.raises(FileNotFoundError):
-            StorageLayout(filepath="file.txt")
-
-    def test_init_with_filepath_arg_file_exists(self):
-        StorageLayout(filepath=str(get_fixture_path("uniswap_v3_factory_storage.json")))
-
-    def test_init_with_data_arg_wrong_schema(self):
+    def test_create_storage_layout_instance_with_wrong_schema(self):
         with pytest.raises(LayoutError):
-            StorageLayout(data={})
+            StorageLayout({})
 
-    def test_init_with_data_arg(self, layout):
-        StorageLayout(data=layout)
+    def test_create_storage_layout_instance(self, layout):
+        sl = StorageLayout(layout)
+        assert sl.contract_name == "UniswapV3Factory"
 
     def test_check_properties(self, layout):
-        sl = StorageLayout(data=layout)
+        sl = StorageLayout(layout)
 
         assert id(layout.get("storage")) == id(sl.storage)
         with pytest.raises(AttributeError):
@@ -73,13 +58,13 @@ class TestStorageLayout:
             sl.types = None
 
     def test_contract_name(self, layout):
-        sl = StorageLayout(data=layout)
+        sl = StorageLayout(layout)
         assert sl.contract_name == "UniswapV3Factory"
         with pytest.raises(AttributeError):
             sl.contract_name = None
 
     def test_number_of_slots(self, layout):
-        sl = StorageLayout(data=layout)
+        sl = StorageLayout(layout)
         assert sl.number_of_slots == 6
         with pytest.raises(AttributeError):
             sl.number_of_slots = None
@@ -91,7 +76,7 @@ class TestStorageLayout:
 
     def test_save(self, tmp_path, sl: StorageLayout):
         file_path = tmp_path / "test_file.json"
-        sl.save(filepath=str(file_path))
+        sl.save(str(file_path))
         assert file_path.exists()
 
     def test_save_fail(self, tmp_path, sl: StorageLayout):

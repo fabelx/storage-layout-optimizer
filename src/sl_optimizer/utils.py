@@ -12,7 +12,7 @@ from sl_optimizer.constants import SLOT_SIZE, STORAGE_LAYOUT_JSON_SCHEMA
 from sl_optimizer.errors import LayoutError, StorageLayoutError
 
 
-def check_file_exists(filepath: str):
+def check_file_exists(filepath: str | Path):
     """Check if a file already exists. If it does, raise FileExistsError.
 
     Args:
