@@ -1,0 +1,41 @@
+{
+  "storage": [
+    {
+      "astId": 12,
+      "contract": "Enums.sol:Enums",
+      "label": "status",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_enum(vEnum)7"
+    },
+    {
+      "astId": 17,
+      "contract": "Enums.sol:Enums",
+      "label": "statuses",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_enum(vEnum)7)55_storage"
+    },
+    {
+      "astId": 20,
+      "contract": "Enums.sol:Enums",
+      "label": "default_status",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_enum(vEnum)7"
+    }
+  ],
+  "types": {
+    "t_array(t_enum(vEnum)7)55_storage": {
+      "base": "t_enum(vEnum)7",
+      "encoding": "inplace",
+      "label": "enum Enums.vEnum[55]",
+      "numberOfBytes": "64"
+    },
+    "t_enum(vEnum)7": {
+      "encoding": "inplace",
+      "label": "enum Enums.vEnum",
+      "numberOfBytes": "1"
+    }
+  }
+}

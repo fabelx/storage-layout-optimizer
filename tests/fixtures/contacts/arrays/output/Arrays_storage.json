@@ -1,0 +1,110 @@
+{
+  "storage": [
+    {
+      "astId": 5,
+      "contract": "Arrays.sol:Arrays",
+      "label": "a",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_array(t_uint8)2_storage"
+    },
+    {
+      "astId": 9,
+      "contract": "Arrays.sol:Arrays",
+      "label": "b",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_array(t_uint256)32_storage"
+    },
+    {
+      "astId": 12,
+      "contract": "Arrays.sol:Arrays",
+      "label": "c",
+      "offset": 0,
+      "slot": "33",
+      "type": "t_array(t_uint8)dyn_storage"
+    },
+    {
+      "astId": 15,
+      "contract": "Arrays.sol:Arrays",
+      "label": "d",
+      "offset": 0,
+      "slot": "34",
+      "type": "t_array(t_bytes_storage)dyn_storage"
+    },
+    {
+      "astId": 19,
+      "contract": "Arrays.sol:Arrays",
+      "label": "f",
+      "offset": 0,
+      "slot": "35",
+      "type": "t_array(t_bytes_storage)2_storage"
+    },
+    {
+      "astId": 22,
+      "contract": "Arrays.sol:Arrays",
+      "label": "e",
+      "offset": 0,
+      "slot": "37",
+      "type": "t_array(t_string_storage)dyn_storage"
+    }
+  ],
+  "types": {
+    "t_array(t_bytes_storage)2_storage": {
+      "base": "t_bytes_storage",
+      "encoding": "inplace",
+      "label": "bytes[2]",
+      "numberOfBytes": "64"
+    },
+    "t_array(t_bytes_storage)dyn_storage": {
+      "base": "t_bytes_storage",
+      "encoding": "dynamic_array",
+      "label": "bytes[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_string_storage)dyn_storage": {
+      "base": "t_string_storage",
+      "encoding": "dynamic_array",
+      "label": "string[]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_uint256)32_storage": {
+      "base": "t_uint256",
+      "encoding": "inplace",
+      "label": "uint256[32]",
+      "numberOfBytes": "1024"
+    },
+    "t_array(t_uint8)2_storage": {
+      "base": "t_uint8",
+      "encoding": "inplace",
+      "label": "uint8[2]",
+      "numberOfBytes": "32"
+    },
+    "t_array(t_uint8)dyn_storage": {
+      "base": "t_uint8",
+      "encoding": "dynamic_array",
+      "label": "uint8[]",
+      "numberOfBytes": "32"
+    },
+    "t_bytes_storage": {
+      "encoding": "bytes",
+      "label": "bytes",
+      "numberOfBytes": "32"
+    },
+    "t_string_storage": {
+      "encoding": "bytes",
+      "label": "string",
+      "numberOfBytes": "32"
+    },
+    "t_uint256": {
+      "encoding": "inplace",
+      "label": "uint256",
+      "numberOfBytes": "32"
+    },
+    "t_uint8": {
+      "encoding": "inplace",
+      "label": "uint8",
+      "numberOfBytes": "1"
+    }
+  }
+}

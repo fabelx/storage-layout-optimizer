@@ -12,6 +12,6 @@ from sl_optimizer import get_number_of_slots, optimize_storage_layout
     ),
 )
 def test_optimize_storage_layout_check_number_of_slots(storage_layout, expected):
-    storage, types = storage_layout.get("storage"), storage_layout.get("types")
-    nstorage, ntypes = optimize_storage_layout(storage=storage, types=types)
+    storage_, types = storage_layout.get("storage"), storage_layout.get("types")
+    nstorage, ntypes = optimize_storage_layout(storage=storage_, types=types)
     assert get_number_of_slots(storage=nstorage, types=ntypes) == expected

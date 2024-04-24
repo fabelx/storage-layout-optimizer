@@ -1,0 +1,71 @@
+{
+  "storage": [
+    {
+      "astId": 3,
+      "contract": "Bytes.sol:Bytes",
+      "label": "vBytes16",
+      "offset": 0,
+      "slot": "0",
+      "type": "t_bytes16"
+    },
+    {
+      "astId": 5,
+      "contract": "Bytes.sol:Bytes",
+      "label": "vBytes17",
+      "offset": 0,
+      "slot": "1",
+      "type": "t_bytes17"
+    },
+    {
+      "astId": 7,
+      "contract": "Bytes.sol:Bytes",
+      "label": "vBytes32",
+      "offset": 0,
+      "slot": "2",
+      "type": "t_bytes32"
+    },
+    {
+      "astId": 9,
+      "contract": "Bytes.sol:Bytes",
+      "label": "vBytes2",
+      "offset": 0,
+      "slot": "3",
+      "type": "t_bytes2"
+    },
+    {
+      "astId": 11,
+      "contract": "Bytes.sol:Bytes",
+      "label": "vBytes",
+      "offset": 0,
+      "slot": "4",
+      "type": "t_bytes_storage"
+    }
+  ],
+  "types": {
+    "t_bytes16": {
+      "encoding": "inplace",
+      "label": "bytes16",
+      "numberOfBytes": "16"
+    },
+    "t_bytes17": {
+      "encoding": "inplace",
+      "label": "bytes17",
+      "numberOfBytes": "17"
+    },
+    "t_bytes2": {
+      "encoding": "inplace",
+      "label": "bytes2",
+      "numberOfBytes": "2"
+    },
+    "t_bytes32": {
+      "encoding": "inplace",
+      "label": "bytes32",
+      "numberOfBytes": "32"
+    },
+    "t_bytes_storage": {
+      "encoding": "bytes",
+      "label": "bytes",
+      "numberOfBytes": "32"
+    }
+  }
+}

@@ -40,8 +40,7 @@ def parse_storage_layout(data: dict) -> tuple:
     try:
         validate_storage_layout(data=data)
     except ValidationError as e:
-        # todo: consider the error message
-        raise LayoutError(f"Invalid storage layout data scheme. {e}")
+        raise LayoutError(f"Invalid storage layout data schema. Reason: {e}")
 
     return data.get("storage"), data.get("types")
 
@@ -98,13 +97,29 @@ def get_number_of_slots(storage: list, types: dict) -> int:
     Returns:
         int: The number of storage slots.
     """
-    last_variable = storage[-1]
-    number_of_bytes = int(types.get(last_variable.get("type")).get("numberOfBytes"))
-    slot = int(last_variable.get("slot")) + 1
-    if number_of_bytes > SLOT_SIZE:
-        return slot + ceil(number_of_bytes / SLOT_SIZE)
+    slots = 0
+    allocated = 0
+    for slot in storage:
+        number_of_bytes = int(types.get(slot.get("type")).get("numberOfBytes"))
+        if number_of_bytes > SLOT_SIZE:
+            # it is guaranteed that number_bytes is a multiple of SLOT_SIZE
+            slots += number_of_bytes / SLOT_SIZE
+            if allocated != 0:
+                allocated = 0
+                slots += 1
+        elif allocated + number_of_bytes > SLOT_SIZE:
+            allocated = number_of_bytes
+            slots += 1
+        elif allocated + number_of_bytes == SLOT_SIZE:
+            slots += 1
+            allocated = 0
+        else:
+            allocated += number_of_bytes
 
-    return slot
+    if allocated != 0:
+        slots += 1
+
+    return int(slots)
 
 
 def is_struct(label: str) -> bool:
