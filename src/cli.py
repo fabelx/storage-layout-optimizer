@@ -2,7 +2,7 @@ import logging
 from argparse import ArgumentParser, Namespace
 from pathlib import Path
 
-from sl_optimizer import LayoutError, StorageLayout
+from sl_optimizer import LayoutError, new_storage_layout
 
 VERSION = "v0.0.4"
 LOGGER = logging.getLogger(__name__)
@@ -65,7 +65,7 @@ def main():
     if args.filepath == args.output:
         log_fatal(f"Error: The input file cannot be equal to the output file.")
     try:
-        sl = StorageLayout(filepath=args.filepath)
+        sl = new_storage_layout(filepath=args.filepath)
     except ValueError:
         log_fatal(
             f"Error: JSON decoding failed. "
