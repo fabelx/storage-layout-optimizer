@@ -116,18 +116,21 @@ def __optimize_storage_layout(storage: list, types: dict, visited: set) -> tuple
     return __first_fit_decreasing(items=storage, weights=types)
 
 
-def optimize_storage_layout(storage: list, types: dict) -> tuple:
+def optimize_storage_layout(storage: list, types: dict, slots: int = 0) -> tuple:
     """Optimize the storage layout of variables.
 
     Args:
         storage: A list of variables representing the current storage layout.
         types: A dictionary containing information about variable types.
+        slots: The number of slots currently being used to store the variables.
 
     Returns:
         tuple: A tuple containing the optimized storage layout and the modified types.
     """
     ntypes = copy.deepcopy(types)
-    slots = get_number_of_slots(storage=storage, types=types)
+    if not slots:
+        slots = get_number_of_slots(storage=storage, types=types)
+
     nstorage, nslots = __optimize_storage_layout(
         storage=copy.deepcopy(storage), types=ntypes, visited=set()
     )

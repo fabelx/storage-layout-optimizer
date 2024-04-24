@@ -5,11 +5,16 @@ from pathlib import Path
 from sl_optimizer import LayoutError, new_storage_layout
 
 VERSION = "v0.0.4"
-LOGGER = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
+logging.basicConfig(
+    format='%(asctime)s %(message)s',
+    datefmt='%I:%M:%S',
+    level=logging.INFO
+)
 
 
 def log_fatal(message: str):
-    LOGGER.error(message)
+    logger.error(message)
     exit(1)
 
 
@@ -46,6 +51,14 @@ def cli(parser: ArgumentParser) -> Namespace:
         version=VERSION,
         help="""returns the version.""",
     )
+    parser.add_argument(
+        "-s",
+        "--silent",
+        action="store_true",
+        default=False,
+        required=False,
+        help="""suppress logs.""",
+    )
     return parser.parse_args()
 
 
@@ -54,6 +67,9 @@ def main():
         description="A Python cli tool designed to optimize the storage layout for Solidity smart contracts."
     )
     args = cli(parser)
+    if args.silent:
+        logger.setLevel(logging.ERROR)
+
     if not args.filepath.exists():
         log_fatal(f"Error: File not found: {args.filepath}.")
 
@@ -75,11 +91,12 @@ def main():
     except LayoutError as e:
         log_fatal(f"Error: {e}")
 
-    LOGGER.info(f"Optimizing {sl.contract_name} smart contact.")
+    logger.info(f"Optimizing {sl.contract_name} smart contact.")
     osl = sl.optimize()
-    LOGGER.info(f"Saving to {args.output} ...")
+    logger.info(f"Slot usage decreased by: {(1 - osl.number_of_slots / sl.number_of_slots) * 100:.2f}%")
+    logger.info(f"Saving to {args.output} ...")
     osl.save(filepath=args.output, force=args.force)
-    LOGGER.info("Done.")
+    logger.info("Done.")
 
 
 if __name__ == "__main__":

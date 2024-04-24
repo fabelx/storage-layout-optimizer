@@ -34,6 +34,7 @@ def main():
     # print the current number of allocated slots for
     # an optimized version of the smart contract storage layout
     print(osl.number_of_slots)
+    print(f"Slot usage decreased by: {(1 - osl.number_of_slots / sl.number_of_slots) * 100:.2f}%")
 
 
 if __name__ == '__main__':
